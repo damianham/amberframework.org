@@ -3,10 +3,10 @@ Amber::Server.instance.config do |app|
     # Plug is the method to use connect a pipe (middleware)
     # A plug accepts an instance of HTTP::Handler
     # plug Amber::Pipe::Params.new
-    # plug Amber::Pipe::Logger.new
+    plug Amber::Pipe::Logger.new
     plug Amber::Pipe::Flash.new
     plug Amber::Pipe::Session.new
-    # plug Amber::Pipe::CSRF.new
+    plug Amber::Pipe::CSRF.new
   end
 
   # All static content will run these transformations
@@ -22,6 +22,6 @@ Amber::Server.instance.config do |app|
   end
 
   routes :web do
-    get "/", HomeController, :index
+    get "/", HomeController, :static
   end
 end
