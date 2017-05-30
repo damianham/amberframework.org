@@ -1,0 +1,46 @@
+version: 1.0
+shards:
+  amber:
+    github: Amber-Crystal/amber
+    commit: d9bb0b6cfce940967ee65de74dde6e52d4564d41
+
+  db:
+    github: crystal-lang/crystal-db
+    version: 0.4.2
+
+  expect:
+    github: dukex/expect.cr
+    commit: 17c31a0f42815cd914a630852bb2ee0da6a39dc0
+
+  granite_orm:
+    github: kemalyst/granite-orm
+    version: 0.6.2
+
+  kemalyst-validators:
+    github: kemalyst/kemalyst-validators
+    version: 0.2.0
+
+  kilt:
+    github: jeromegn/kilt
+    version: 0.3.3
+
+  mocks:
+    github: waterlink/mocks.cr
+    version: 0.9.5
+
+  pg:
+    github: will/crystal-pg
+    version: 0.13.3
+
+  radix:
+    github: luislavena/radix
+    commit: 211418416adba540b594af2260e1b5d0c8877c9e
+
+  singleton:
+    github: waterlink/singleton.cr
+    version: 1.0.0
+
+  slang:
+    github: jeromegn/slang
+    commit: 3b657c48791d72c109fa55ce6431d3042efe2f9c
+
