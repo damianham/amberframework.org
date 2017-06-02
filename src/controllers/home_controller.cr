@@ -1,11 +1,10 @@
 class HomeController < Amber::Controller::Base
-
-  def static
-    redirect_to "/index.html"
+  def index
+    render("index.ecr", false)
   end
 
-  def index
-    render("index.slang")
+  def guides
+    render("guides.ecr", false)
   end
 end
 
