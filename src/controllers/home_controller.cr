@@ -1,10 +1,13 @@
 class HomeController < Amber::Controller::Base
+  LAYOUT = "application.slang"
+  @title : String?
+
   def index
-    render("index.ecr", false)
+    raise "error!"
+    render("index.slang")
   end
 
   def guides
-    render("guides.ecr", false)
+    render("guides.slang")
   end
 end
-
