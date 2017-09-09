@@ -3,7 +3,6 @@ class HomeController < Amber::Controller::Base
   @title : String?
 
   def index
-    raise "error!"
     render("index.slang")
   end
 
