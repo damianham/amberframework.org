@@ -212,13 +212,13 @@ html
                   a.wsite-menu-item href="https://amber-crystal.gitbooks.io/amber/content/" target="_blank"
                     | guides
                 li#pg709196432525450600.wsite-menu-item-wrap
-                  a.wsite-menu-item href="https://github.com/Amber-Crystal/amber/projects/2" target="_blank"
+                  a.wsite-menu-item href="https://github.com/amberframework/amber/projects/2" target="_blank"
                     | roadmap
                 li#pg246594821695395628.wsite-menu-item-wrap
-                  a.wsite-menu-item href="https://github.com/Amber-Crystal/amber" target="_blank"
+                  a.wsite-menu-item href="https://github.com/amberframework/amber" target="_blank"
                     | github
                 li#pg417344239176849217.wsite-menu-item-wrap
-                  a.wsite-menu-item href="https://gitter.im/Amber-Crystal/Lobby" target="_blank"
+                  a.wsite-menu-item href="https://gitter.im/amberframework/Lobby" target="_blank"
                     | Chat
             label.hamburger
               span
@@ -237,14 +237,15 @@ html
                             font color="#626262"
                               font size="3"  Amber Crystal Framework
                               br
-                              br
                               a href="https://amber-crystal.gitbooks.io/amber/content/"  Guides
                               br
-                              a href="https://github.com/Amber-Crystal/amber/projects/2"  Roadmap
+                              a href="https://github.com/amberframework/amber/projects/2"  Roadmap
                               br
-                              a href="https://github.com/Amber-Crystal/amber/projects/2"  Github
+                              a href="https://github.com/amberframework/"  Github
                               br
-                              a href="https://gitter.im/Amber-Crystal/Lobby"  Chat
+                              a href="https://gitter.im/amberframework/Lobby"  Chat
+                              br
+                              a href="https://twitter.com/amberframework"  Twitter
                               br
                               a href="https://amber-crystal.gitbooks.io/amber/content/preface/code-of-conduct.html"  Code Of Conduct
                         td.wsite-multicol-col style="width:33.333333333333%; padding:0 15px;"
@@ -272,7 +273,7 @@ html
             .paragraph style="text-align:right;"
               font color="#515151"
                 | Managed by
-                a href="https://www.ambercr.io"  Amber Framework 
+                a href="https://amberframework.org"  Amber Framework 
       /! end footer-wrap
     /! /.wrapper
     #navMobile.nav.mobile-nav
@@ -283,13 +284,13 @@ html
           a.wsite-menu-item href="https://amber-crystal.gitbooks.io/amber/content/" target="_blank"
             | guides
         li#pg709196432525450600.wsite-menu-item-wrap
-          a.wsite-menu-item href="https://github.com/Amber-Crystal/amber/projects/2" target="_blank"
+          a.wsite-menu-item href="https://github.com/amberframework/amber/projects/2" target="_blank"
             | roadmap
         li#pg246594821695395628.wsite-menu-item-wrap
-          a.wsite-menu-item href="https://github.com/Amber-Crystal/amber" target="_blank"
+          a.wsite-menu-item href="https://github.com/amberframework/amber" target="_blank"
             | github
         li#pg417344239176849217.wsite-menu-item-wrap
-          a.wsite-menu-item href="https://gitter.im/Amber-Crystal/Lobby" target="_blank"
+          a.wsite-menu-item href="https://gitter.im/amberframework/Lobby" target="_blank"
             | Chat
     script src="files/theme/plugins.js" type="text/javascript"
     script src="files/theme/custom.js" type="text/javascript"
