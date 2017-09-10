@@ -1,6 +1,6 @@
-# ambercr.io
+# Amber Framework Website
 
-Your description here
+Official website for Amber web application framework. 
 
 ## Installation
 
@@ -38,7 +38,7 @@ Note: The Docker images are compatible with Heroku.
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/your_project/fork )
+1. Fork it ( https://github.com/amberframework/amberframework.org/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -46,4 +46,4 @@ Note: The Docker images are compatible with Heroku.
 
 ## Contributors
 
-- [your_github_name](https://github.com/your_github_name) your_name - creator, maintainer
+- [amberframework](https://github.com/amberframework) Amber Framework Organization - creator, maintainer

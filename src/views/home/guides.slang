@@ -4,15 +4,15 @@
     .container
       .logo
         span.wsite-logo
-          a href=""
-            img src="uploads/1/0/4/6/104694245/logo-white-background.jpg"
+          a href="/"
+            img src="/uploads/1/0/4/6/104694245/logo-white-background.jpg"
       .nav.desktop-nav
         ul.wsite-menu-default
           li#pg709196432525450600.wsite-menu-item-wrap
             a.wsite-menu-item href="https://quip.com/bov8A0uRjwKE" target="_blank"
               | roadmap
           li#pg246594821695395628.wsite-menu-item-wrap
-            a.wsite-menu-item href="https://github.com/Amber-Crystal/amber" target="_blank"
+            a.wsite-menu-item href="https://github.com/amberframework/amber" target="_blank"
               | github
           li#pg417344239176849217.wsite-menu-item-wrap
             a.wsite-menu-item href="https://gitter.im/Amber-Crystal/Lobby" target="_blank"

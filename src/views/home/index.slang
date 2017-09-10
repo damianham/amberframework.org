@@ -16,7 +16,7 @@
                             td.wsite-multicol-col style="width:43.391304347826%; padding:0 15px;"
                               div
                                 .wsite-image.wsite-image-border-none style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center"
-                                  img alt="Picture" src="uploads/1/0/4/6/104694245/published/white-logo-transparent-background_1.png?1492570533" style="width:373;max-width:100%"
+                                  img alt="Picture" src="/uploads/1/0/4/6/104694245/published/white-logo-transparent-background_1.png?1492570533" style="width:373;max-width:100%"
                                   div style="display:block;font-size:90%"
                             td.wsite-multicol-col style="width:56.608695652174%; padding:0 15px;"
                               .wsite-spacer style="height:40px;"
@@ -25,10 +25,10 @@
                                   strong Web Framework for Crystal
                               .paragraph style="text-align:left;"
                                 font size="5"  Amber
-                                | Amber is a web application framework written in Crystal inspired by Kemal, Rails, Phoenix and other popular application frameworks.
+                                | is a web application framework written in Crystal inspired by Kemal, Rails, Phoenix and other popular application frameworks.
                               div style="text-align:left;"
                                 div style="height: 10px; overflow: hidden;"
-                                a.wsite-button.wsite-button-large.wsite-button-highlight href="https://docs.ambercr.io"
+                                a.wsite-button.wsite-button-large.wsite-button-highlight href="https://docs.amberframework.org/"
                                   span.wsite-button-inner Getting Started
                                 div style="height: 10px; overflow: hidden;"
                               video autoplay="" height="auto" loop="" src="/videos/amber.mp4" width="100%"
@@ -48,7 +48,7 @@
                           td.wsite-multicol-col style="width:23.217391304348%; padding:0 15px;"
                             div style="text-align:left;"
                               div style="height: 10px; overflow: hidden;"
-                              a.wsite-button.wsite-button-small.wsite-button-normal href="https://github.com/Amber-Crystal/amber/blob/master/.github/CONTRIBUTING.md" target="_blank"
+                              a.wsite-button.wsite-button-small.wsite-button-normal href="https://github.com/amberframework/amber/blob/master/.github/CONTRIBUTING.md" target="_blank"
                                 span.wsite-button-inner Become a Contributor
                               div style="height: 10px; overflow: hidden;"
                           td.wsite-multicol-col style="width:76.782608695652%; padding:0 15px;"
