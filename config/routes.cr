@@ -20,7 +20,7 @@ Amber::Server.instance.config do |app|
   routes :static do
     # Each route is defined as follow
     # verb resource : String, controller : Symbol, action : Symbol
-    get "/*", HomeController, :index
+    get "/*", StaticController, :index
   end
 
   routes :web do
