@@ -83,7 +83,7 @@
                             h2.wsite-content-title style="text-align:center;"  No Configuration
                             .paragraph style="text-align:center;"  No complicated XML, YAML just setup your ORM and you will be ready to shine
                             h2.wsite-content-title style="text-align:center;"  Feel at Home
-                            .paragraph style="text-align:center;"  Crystal’s syntax is heavily inspired on Ruby’s, so it feels natural to read and easy to write.
+                            .paragraph style="text-align:center;"  Crystal syntax is heavily inspired on Ruby, so it feels natural to read and easy to write.
                           td.wsite-multicol-col style="width:33.333333333333%; padding:0 55px;"
                             h2.wsite-content-title style="text-align:center;"  MIT License
                             .paragraph style="text-align:center;"

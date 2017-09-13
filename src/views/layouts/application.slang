@@ -256,7 +256,7 @@ html
                             br
                             a href="https://crystal-lang.org/docs/" target="_blank"  Learn
                             br
-                            a href="https://crystal-lang.org/api/0.21.1/" target="_blank"  Standard Library
+                            a href="https://crystal-lang.org/api/latest/" target="_blank"  Standard Library
                             br
                             a href="https://crystal-lang.org/docs/conventions/coding_style.html" target="_blank"  Code Guidelines
                             br

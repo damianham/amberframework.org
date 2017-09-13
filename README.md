@@ -17,8 +17,8 @@ amber migrate up
 
 To run the demo:
 ```
-crystal build src/ambercr.io.cr
-./ambercr.io
+crystal build src/amberframework.cr
+./amberframework
 ```
 
 ## Docker and Docker Compose

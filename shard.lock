@@ -1,7 +1,7 @@
 version: 1.0
 shards:
   amber:
-    github: Amber-Crystal/amber
+    github: amberframework/amber
     commit: 6d11c0113b2c1de75fc87627fd9a40f96fbdbe49
 
   callback:
@@ -20,17 +20,9 @@ shards:
     github: dukex/expect.cr
     commit: 17c31a0f42815cd914a630852bb2ee0da6a39dc0
 
-  granite_orm:
-    github: kemalyst/granite-orm
-    version: 0.6.4
-
   icr:
     github: TechMagister/crystal-icr
     commit: b28bb938cc9e9e439424217c074a9168d253ba4b
-
-  kemalyst-validators:
-    github: kemalyst/kemalyst-validators
-    version: 0.2.0
 
   kilt:
     github: jeromegn/kilt

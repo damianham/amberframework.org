@@ -1,29 +1,28 @@
-name: ambercr.io
+name: amberframework
 version: 0.1.0
 
 authors:
-  - Amber <contact@ambercr.io>
+  - Amber <amberframework.org>
 
-crystal: 0.22.0
+crystal: 0.23.1
 
 license: MIT
 
 dependencies:
   amber:
-    github: Amber-Crystal/amber
+    github: amberframework/amber
     branch: master
 
-  granite_orm:
-    github: kemalyst/granite-orm
-    version: ~> 0.6.0
-
-  pg:
-    github: will/crystal-pg
-
-#  mysql:
-#    github: crystal-lang/crystal-mysql
+#  granite_orm:
+#    github: kemalyst/granite-orm
+#    version: ~> 0.7.2
+#
 #  pg:
 #    github: will/crystal-pg
+#
+#  mysql:
+#    github: crystal-lang/crystal-mysql
+#
 #  sqlite3:
 #    github: crystal-lang/crystal-sqlite3
 
