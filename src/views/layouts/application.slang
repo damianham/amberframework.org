@@ -218,7 +218,7 @@ html
                   a.wsite-menu-item href="https://github.com/amberframework/amber" target="_blank"
                     | github
                 li#pg417344239176849217.wsite-menu-item-wrap
-                  a.wsite-menu-item href="https://gitter.im/Amber-Crystal/Lobby" target="_blank"
+                  a.wsite-menu-item href="https://gitter.im/amberframework/amber" target="_blank"
                     | Chat
             label.hamburger
               span
