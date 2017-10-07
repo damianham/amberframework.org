@@ -3,6 +3,7 @@ module Amber::Exceptions
     include Amber::Controller::Render
     LAYOUT = "application.slang"
     @title : String?
+    @container_class : String?
 
     def initialize(request)
       @status_code = 404
@@ -25,6 +26,7 @@ class ErrorHandler < Amber::Pipe::Base
   include Amber::Controller::Render
   LAYOUT = "application.slang"
   @title : String?
+  @container_class : String?
 
   def call(context)
     call_next(context)

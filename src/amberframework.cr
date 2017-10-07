@@ -5,5 +5,6 @@ require "amber"
 require "./**"
 require "./*"
 require "../config/*"
+require "markdown"
 
 Amber::Server.start

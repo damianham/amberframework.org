@@ -1,4 +1,4 @@
-class StaticController < Amber::Controller::Base
+class StaticController < ApplicationController
   def index
     Amber::Exceptions::RouteNotFound.new(request).set_response(response)
     ""

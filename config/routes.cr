@@ -1,4 +1,4 @@
-Amber::Server.instance.config do |app|
+Amber::Server.configure do |app|
   pipeline :web do
     # Plug is the method to use connect a pipe (middleware)
     # A plug accepts an instance of HTTP::Handler
@@ -25,5 +25,8 @@ Amber::Server.instance.config do |app|
 
   routes :web do
     get "/", HomeController, :index
+    get "/media", HomeController, :media
+    get "/roadmap", HomeController, :roadmap
+    get "/guides", HomeController, :guides
   end
 end
