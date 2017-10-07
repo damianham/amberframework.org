@@ -139,7 +139,7 @@ main.main-content
         div
           span.text-info.fs-50 data-provide="counter" data-from="0" data-to="14" data-speed="300" 14
           br
-          p 14+ Reseases
+          p 14+ Releases
             i.fa.fa-github
             small
               a href="https://github.com/amberframework/amber/releases/latest" target="_blank" Version 0.2.6
