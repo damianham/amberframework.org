@@ -89,7 +89,7 @@ main.main-content
               h5
                 | A beautiful Type Safe Language
               p
-                | Crystal inspiired by Ruby is a statically type checked, so any type errors will be
+                | Crystal inspired by Ruby is a statically type checked, so any type errors will be
                 | caught early by the compiler rather than fail on runtime.
                 | Crystal uses green threads, called fibers, to achieve concurrency
 
