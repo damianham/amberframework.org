@@ -53,7 +53,7 @@ main.main-content
                 | MVC Conventions
               p
                 | Instead of having to plan where things go, Amber comes with a
-                | set of conventions to guide you in developing your applicatio
+                | set of conventions to guide you in developing your application.
 
         .col-12.col-md-6.col-xl-4
           .flexbox.gap-items-4
@@ -75,7 +75,7 @@ main.main-content
               h5
                 | Well Documented
               p
-                | We pride ourselves in making sure Amber is a fully documented frammework
+                | We pride ourselves in making sure Amber is a fully documented framework
                 | that is easy to read and follow.
                 a href="/guides"
                   | Get Started
@@ -91,7 +91,7 @@ main.main-content
               p
                 | Crystal inspired by Ruby is a statically type checked, so any type errors will be
                 | caught early by the compiler rather than fail on runtime.
-                | Crystal uses green threads, called fibers, to achieve concurrency
+                | Crystal uses green threads, called fibers, to achieve concurrency.
 
         .col-12.col-md-6.col-xl-4
           .flexbox.gap-items-4
