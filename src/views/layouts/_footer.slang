@@ -3,7 +3,7 @@ footer.site-footer.py-90.bg-gray
     .row.gap-y
       .col-12.col-md-12.col-lg-4
         h6.heading-alt.text-uppercase.fs-14.mb-16
-          img src="assets/img/amber-white-bg.png" width="100" alt="logo"
+          img src="assets/img/amber-white-bg.png" width="100" alt="amber logo"
         p.fs-13
           | Amber aims to deliver developer happiness, productivity and bare metal performance. It offers a familiar set of tools like generators, database management, repl, deployment tools, docker support and production tools like encrypted secrets.
         br

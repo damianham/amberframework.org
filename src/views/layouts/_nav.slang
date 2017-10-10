@@ -4,8 +4,8 @@ nav.topbar.topbar-inverse.topbar-expand-md.topbar-sticky style="background-color
       button.topbar-toggler
         | ☰
       a.topbar-brand href="/"
-        img.logo-default src="assets/img/amber-logo-small-white.png" alt="logo" width="100"
-        img.logo-inverse src="assets/img/amber-logo-small-white.png" alt="logo" width="100"
+        img.logo-default src="/assets/img/amber-logo-small-white.png" alt="amber logo" width="100"
+        img.logo-inverse src="/assets/img/amber-logo-small-white.png" alt="amber logo" width="100"
     .topbar-right
       ul.topbar-nav.nav style=" color: white"
         li.nav-item
