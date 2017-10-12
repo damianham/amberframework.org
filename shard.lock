@@ -2,7 +2,7 @@ version: 1.0
 shards:
   amber:
     github: amberframework/amber
-    commit: b0b6b5320b25ddaa55afdb5e994356437282d2ac
+    commit: 9d6ee10709dc5a72d231b76e43fb7299995e49eb
 
   callback:
     github: mosop/callback
@@ -73,7 +73,7 @@ shards:
     commit: b817c89c7e5ae39562710c0d6c7f42cee685e14f
 
   spinner:
-    github: elorest/spinner
+    github: askn/spinner
     version: 0.1.1
 
   sqlite3:

@@ -27,7 +27,5 @@ dependencies:
 #    github: crystal-lang/crystal-sqlite3
 
 development_dependencies:
-  expect:
-    github: dukex/expect.cr
-  mocks:
-    github: waterlink/mocks.cr
+  amber_spec:
+    github: amberframework/amber-spec

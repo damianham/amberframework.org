@@ -1,7 +1,13 @@
 /doc/
-/libs/
 /lib/
 /.crystal/
 /.shards/
+/.vscode/
 .env
+.amber_secret_key
+production.yml
+.DS_Store
+node_modules
 amberframework
+app
+.directory

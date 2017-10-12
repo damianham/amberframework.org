@@ -1,6 +1,4 @@
 Amber::Server.configure do |app|
-  # Server options
-  app_path = __FILE__ # Do not change unless you understand what you are doing.
   app.name = "Amber Framework web application."
   app.host = "0.0.0.0"
   OptionParser.parse! do |opts|
@@ -8,7 +6,8 @@ Amber::Server.configure do |app|
       app.port = opt.to_i
     end
   end
-  app.env = ENV.fetch("AMBER_ENV", "development").colorize(:green).to_s
+  app.env = ENV.fetch("AMBER_ENV", "development")
+  app.color = false if app.env == "production"
   app.log = ::Logger.new(STDOUT)
   app.log.level = ::Logger::INFO
 end

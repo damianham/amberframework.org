@@ -11,31 +11,24 @@ main.main-content
         hr
         p.lead
           | Amber makes building web applications simple, fast and enjoyable without sacrificing performance.
+
       .row.gap-y
         .col-12.offset-md-2.col-md-8.mb-30
-          video autoplay="" height="auto" loop="" src="https://amberframework.org/videos/amber.mp4" width="100%"
+          video autoplay="" height="auto" loop="" controls="" src="/assets/videos/amber.mp4" width="100%"
+            | Amber sample. Your browser does not support the video tag.
         .col-12.col-md-6.col-xl-4
           .flexbox.gap-items-4
-            div
+            div.icon
               i.fa.fa-tv.fs-25.pt-4.text-secondary
             div
               h5
                 | Generators
               p
                 | Use code generation and scaffolding features to rapidly build prototypes.
-        .col-12.col-md-6.col-xl-4
-          .flexbox.gap-items-4
-            div
-              i.fa.fa-cogs.fs-25.pt-4.text-secondary
-            div
-              h5
-                | No Configuration
-              p
-                | No complicated XML, just setup your ORM and you will be ready to shine.
 
         .col-12.col-md-6.col-xl-4
           .flexbox.gap-items-4
-            div
+            div.icon
               i.fa.fa-university.fs-25.pt-4.text-secondary
             div
               h5
@@ -46,7 +39,7 @@ main.main-content
 
         .col-12.col-md-6.col-xl-4
           .flexbox.gap-items-4
-            div
+            div.icon
               i.fa.fa-cubes.fs-25.pt-4.text-secondary
             div
               h5
@@ -57,7 +50,7 @@ main.main-content
 
         .col-12.col-md-6.col-xl-4
           .flexbox.gap-items-4
-            div
+            div.icon
               i.fa.fa-user-secret.fs-25.pt-4.text-secondary
             div
               h5
@@ -65,25 +58,11 @@ main.main-content
               p
                 | Built-in tools for input validation, CSRF protection, Form
                 | tampering protection, SQL injection prevention, and XSS prevention,
-                | helping you keep your application safe & secure.
+                | helping you keep your application safe and secure.
 
         .col-12.col-md-6.col-xl-4
           .flexbox.gap-items-4
-            div
-              i.fa.fa-support.fs-25.pt-4.text-secondary
-            div
-              h5
-                | Well Documented
-              p
-                | We pride ourselves in making sure Amber is a fully documented framework
-                | that is easy to read and follow.
-                a href="/guides"
-                  | Get Started
-                  i.fa.fa-chevron-circle-right
-
-        .col-12.col-md-6.col-xl-4
-          .flexbox.gap-items-4
-            div
+            div.icon
               i.fa.fa-language.fs-25.pt-4.text-secondary
             div
               h5
@@ -95,7 +74,7 @@ main.main-content
 
         .col-12.col-md-6.col-xl-4
           .flexbox.gap-items-4
-            div
+            div.icon
               i.fa.fa-wrench.fs-25.pt-4.text-secondary
             div
               h5
@@ -105,13 +84,12 @@ main.main-content
                 | caching, validation, authentication, including tools for deployments
                 | secrets encryption.
 
-
   section.section.text-center.bg-gray
     .container
       .row
         .col-12.offset-md-3.col-md-6
           p
-            img src="assets/img/bootstrap-github-1.png" alt="github"
+            img src="/assets/img/bootstrap-github-1.png" alt="github logo"
           br
           h3.fw-900.mb-20
             | Fork the project on GitHub
@@ -119,8 +97,6 @@ main.main-content
             strong
               | Amber
             |  is open source! It’s hosted, developed, and maintained on GitHub by folks like you.
-          p.lead.text-muted
-            |  Contributing to Amber can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine. Amber is a community effort and we want You to be part of ours
           br
           a.btn.btn-lg.btn-round.btn-success href="https://github.com/amberframework" target="_blank"
             | Contribute On Github
@@ -129,28 +105,28 @@ main.main-content
     .container.mb-50
       header.section-header
         p
-          img src="assets/img/cta.png" alt="..."
+          img src="/assets/img/cta.png" alt="image about community"
         h2
           | Community Driven
         hr
         p.lead
-          | Millions of amazing sites across the web are being built with Bootstrap. Get started on your own with our growing collection of examples or by exploring some of our favorites.
-      .flexbox.flex-grow-all.text-center.mx-auto.w-600
+          | Contributing to Amber can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine. Amber is a community effort and we want You to be part of ours.
+      .flexbox.flex-grow-all.text-center.mx-auto.amber-stats
         div
-          span.text-info.fs-50 data-provide="counter" data-from="0" data-to="14" data-speed="300" 14
+          span.text-info.fs-50 data-provide="counter" data-from="0" data-to="15" data-speed="300" 14
           br
-          p 14+ Releases
+          p 15+ Releases
             i.fa.fa-github
             small
-              a href="https://github.com/amberframework/amber/releases/latest" target="_blank" Version 0.2.6
+              a href="https://github.com/amberframework/amber/releases/latest" target="_blank" Version 0.2.7
         div
-          span.text-info.fs-50 data-provide="counter" data-from="0" data-to="230" data-speed="300" 230
+          span.text-info.fs-50 data-provide="counter" data-from="0" data-to="250" data-speed="300" 250
           br
-          p 230+ Stars
+          p 250+ Stars
             i.fa.fa-star
         div
-          span.text-info.fs-50 data-provide="counter" data-from="0" data-to="621" data-speed="300" 621
+          span.text-info.fs-50 data-provide="counter" data-from="0" data-to="630" data-speed="300" 630
           br
-          p 621+ Commits
+          p 630+ Commits
             i.fa.fa-file-text
       br

@@ -1,4 +1,5 @@
-header.header.header-inverse.overflow-hidden style="background-image: linear-gradient( #f4994b 100px, #E67E25); padding-top: 80px; padding-bottom: 80px;"
+- @title = "Media - Amber Framework"
+header.header.header-inverse.overflow-hidden.orange-header
   .container.text-center
     .row
       .col-12.col-lg-8.offset-lg-2
@@ -7,7 +8,7 @@ header.header.header-inverse.overflow-hidden style="background-image: linear-gra
           | We’ve put together some assets and guidelines to make use of
           br
           strong Amber Brand and Logos.
-main.content
+main
   section.section.overflow-hidden
     .container
       .row
@@ -29,8 +30,8 @@ main.content
                 | Script styles include a ripple edged, smooth or rough version. The sans serif styles include a ripple edged or
                 | rough version.
         .col-12.col-md-6.align-self-end.text-center
-          img.aos-init.aos-animate alt="minimo font" data-aos="fade-up" src="images/minimo.png"
-          img.aos-init.aos-animate alt="local brewery font" data-aos="fade-up" src="images/local-brewery.jpg"
+          img alt="minimo font" src="/assets/img/minimo.png"
+          img alt="local brewery font" src="/assets/img/local-brewery.jpg"
   section.section.bg-gray
     .container
       header.section-header

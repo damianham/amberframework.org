@@ -1,0 +1,87 @@
+small {
+    color: #535353 !important;
+}
+
+.text-secondary {
+    color: #6d6d6d !important;
+}
+
+.text-muted {
+    color: #6c7077 !important;
+}
+
+.topbar-nav .nav-link {
+    opacity: 0.9;
+}
+
+.amber-stats {
+    max-width: 600px !important;
+}
+
+#sidebar {
+    padding-bottom: 50% !important;
+}
+
+.img-amber-logo {
+    max-width: 35% !important;
+}
+
+.flexbox {
+    justify-content: initial;
+}
+
+.flexbox > .icon {
+    width: 4%;
+}
+
+.btn.affix {
+    background: none;
+    border: none;
+    transition: none;
+}
+
+.logo-default {
+    display: inline-block !important;
+}
+
+@media screen and (max-height: 600px) {
+    .img-amber-logo {
+        display: none !important;
+    }
+}
+
+.orange-header {
+    background-image: linear-gradient(#f4994b 100px, #E67E25);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.backtrace {
+    text-align: left;
+    padding: 5px
+}
+
+.amber-color {
+    background-color: #f4994b !important;
+}
+
+.landpage-header {
+    background-image: linear-gradient(#f4994b 100px, #E67E25 50%);
+}
+
+.guides-spacing {
+    padding-top:60px;
+    padding-bottom: 0;
+}
+
+.post-list {
+    padding: 0;
+}
+
+.post-list > li {
+    list-style: none;
+}
+
+.post-list > li > h2 {
+    padding-bottom: 20px;
+}

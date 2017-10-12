@@ -1,8 +1,4 @@
-class HomeController < Amber::Controller::Base
-  LAYOUT = "application.slang"
-  @title : String = "Amber - Crystal Web Application Framework"
-  @container_class = "container"
-
+class HomeController < ApplicationController
   def index
     render("index.slang")
   end
@@ -10,10 +6,6 @@ class HomeController < Amber::Controller::Base
   def guides
     @container_class = "container-fluid"
     render("guides.slang")
-  end
-
-  def roadmap
-    render("roadmap.slang")
   end
 
   def media
