@@ -7,7 +7,7 @@ header.header.header-inverse.overflow-hidden.orange-header
         p.fs-20.opacity-70
           | Experiences and stories about Amber Framework
 main
-  section.section
+  section.section.py-15
     .container
       ul.post-list
         li

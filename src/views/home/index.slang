@@ -11,11 +11,11 @@ main.main-content
         hr
         p.lead
           | Amber makes building web applications simple, fast and enjoyable without sacrificing performance.
-
-      .row.gap-y
+      .row
         .col-12.offset-md-2.col-md-8.mb-30
-          video autoplay="" height="auto" loop="" controls="" src="/assets/videos/amber.mp4" width="100%"
-            | Amber sample. Your browser does not support the video tag.
+          .amber-yt-video
+            iframe src="https://www.youtube.com/embed/nIHSuBhoYc0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""
+      .row.gap-y
         .col-12.col-md-6.col-xl-4
           .flexbox.gap-items-4
             div.icon
@@ -98,7 +98,7 @@ main.main-content
               | Amber
             |  is open source! It’s hosted, developed, and maintained on GitHub by folks like you.
           br
-          a.btn.btn-lg.btn-round.btn-success href="https://github.com/amberframework" target="_blank"
+          a.btn.btn-lg.btn-round.shadow-3.btn-primary href="https://github.com/amberframework" target="_blank"
             | Contribute On Github
 
   section.section.pb-0.overflow-hidden

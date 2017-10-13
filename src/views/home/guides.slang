@@ -13,6 +13,10 @@ footer.site-footer.py-30.bg-gray.text-right
         h6.heading-alt.text-uppercase.fs-14.mb-16
           img src="/assets/img/amber-white-bg.png" width="100" alt="amber logo"
         p.text-light
+          | If you found any issue on Amber documentation please contact us at
+          a href="https://gitter.im/amberframework/amber"
+            | Gitter room.
+        p.text-light
           | Copyright © 2017
           a href="https://amberframework.org"
             | Amber Framework

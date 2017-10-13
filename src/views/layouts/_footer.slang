@@ -22,8 +22,12 @@ footer.site-footer.py-30.bg-gray
             | Amber Blog
           a.nav-link href="/media"
             | Amber Media
+          a.nav-link href="https://docs.amberframework.org/"
+            | Gitbook
+            i.fa.fa-book
           a.nav-link href="https://github.com/amberframework/" target="_blank"
             | Source Code
+            i.fa.fa-github
           a.nav-link href="https://gitter.im/amberframework/amber"  target="_blank"
             | Join Gitter Channel
           a.nav-link href="https://teespring.com/stores/amber-framework"  target="_blank"
@@ -37,6 +41,7 @@ footer.site-footer.py-30.bg-gray
         .nav.flex-column
           a.nav-link href="https://crystal-lang.org/docs/"
             | Crystal Documentation
+            i.fa.fa-book
           a.nav-link href="https://crystal-lang.org/api/latest/"
             | Crystal Standard Library
           a.nav-link href="https://crystal-lang.org/docs/conventions/coding_style.html"
@@ -45,5 +50,6 @@ footer.site-footer.py-30.bg-gray
             | Crystal Community
           a.nav-link href="https://github.com/crystal-lang/crystal"
             | Source Code
+            i.fa.fa-github
           a.nav-link href="https://play.crystal-lang.org/#/cr"
             | Try Crystal Online

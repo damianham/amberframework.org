@@ -57,21 +57,21 @@
           a.list-group-item aria-expanded="false" data-toggle="collapse" href="#menu5sub2" Jennifer ↴
           #menu5sub2.collapse
             a.list-group-item data-parent="#menu5sub2" href="#getting-started/models/jennifer/README.md" Amber Configuration
-            a.list-group-item data-parent="#menu5sub2" data-href="https://raw.githubusercontent.com/imdrasil/" href="#jennifer.cr/master/docs/configuration.md" Jennifer Configuration
-            a.list-group-item data-parent="#menu5sub2" data-href="https://raw.githubusercontent.com/imdrasil/" href="#jennifer.cr/master/docs/migration.md" Migrations
-            a.list-group-item data-parent="#menu5sub2" data-href="https://raw.githubusercontent.com/imdrasil/" href="#jennifer.cr/master/docs/model_mapping.md" Model Mapping
-            a.list-group-item data-parent="#menu5sub2" data-href="https://raw.githubusercontent.com/imdrasil/" href="#jennifer.cr/master/docs/model_sti.md" Model STI
-            a.list-group-item data-parent="#menu5sub2" data-href="https://raw.githubusercontent.com/imdrasil/" href="#jennifer.cr/master/docs/callbacks.md" Callbacks
-            a.list-group-item data-parent="#menu5sub2" data-href="https://raw.githubusercontent.com/imdrasil/" href="#jennifer.cr/master/docs/validation.md" Validation
-            a.list-group-item data-parent="#menu5sub2" data-href="https://raw.githubusercontent.com/imdrasil/" href="#jennifer.cr/master/docs/timestamps.md" Timestamps
-            a.list-group-item data-parent="#menu5sub2" data-href="https://raw.githubusercontent.com/imdrasil/" href="#jennifer.cr/master/docs/relations.md" Relations
-            a.list-group-item data-parent="#menu5sub2" data-href="https://raw.githubusercontent.com/imdrasil/" href="#jennifer.cr/master/docs/crud.md" CRUD
-            a.list-group-item data-parent="#menu5sub2" data-href="https://raw.githubusercontent.com/imdrasil/" href="#jennifer.cr/master/docs/query_dsl.md" Query DSL
-            a.list-group-item data-parent="#menu5sub2" data-href="https://raw.githubusercontent.com/imdrasil/" href="#jennifer.cr/master/docs/eager_loading.md" Eager loading
-            a.list-group-item data-parent="#menu5sub2" data-href="https://raw.githubusercontent.com/imdrasil/" href="#jennifer.cr/master/docs/pagination_and_ordering.md" Pagination and Ordering
-            a.list-group-item data-parent="#menu5sub2" data-href="https://raw.githubusercontent.com/imdrasil/" href="#jennifer.cr/master/docs/model_scopes.md" Model Scopes
-            a.list-group-item data-parent="#menu5sub2" data-href="https://raw.githubusercontent.com/imdrasil/" href="#jennifer.cr/master/docs/aggregation.md" Aggregation
-            a.list-group-item data-parent="#menu5sub2" data-href="https://raw.githubusercontent.com/imdrasil/" href="#jennifer.cr/master/docs/transaction_and_lock.md" Transaction and Lock
+            a.list-group-item data-parent="#menu5sub2" href="#/imdrasil/jennifer.cr/master/docs/configuration.md" Jennifer Configuration
+            a.list-group-item data-parent="#menu5sub2" href="#/imdrasil/jennifer.cr/master/docs/migration.md" Migrations
+            a.list-group-item data-parent="#menu5sub2" href="#/imdrasil/jennifer.cr/master/docs/model_mapping.md" Model Mapping
+            a.list-group-item data-parent="#menu5sub2" href="#/imdrasil/jennifer.cr/master/docs/model_sti.md" Model STI
+            a.list-group-item data-parent="#menu5sub2" href="#/imdrasil/jennifer.cr/master/docs/callbacks.md" Callbacks
+            a.list-group-item data-parent="#menu5sub2" href="#/imdrasil/jennifer.cr/master/docs/validation.md" Validation
+            a.list-group-item data-parent="#menu5sub2" href="#/imdrasil/jennifer.cr/master/docs/timestamps.md" Timestamps
+            a.list-group-item data-parent="#menu5sub2" href="#/imdrasil/jennifer.cr/master/docs/relations.md" Relations
+            a.list-group-item data-parent="#menu5sub2" href="#/imdrasil/jennifer.cr/master/docs/crud.md" CRUD
+            a.list-group-item data-parent="#menu5sub2" href="#/imdrasil/jennifer.cr/master/docs/query_dsl.md" Query DSL
+            a.list-group-item data-parent="#menu5sub2" href="#/imdrasil/jennifer.cr/master/docs/eager_loading.md" Eager loading
+            a.list-group-item data-parent="#menu5sub2" href="#/imdrasil/jennifer.cr/master/docs/pagination_and_ordering.md" Pagination and Ordering
+            a.list-group-item data-parent="#menu5sub2" href="#/imdrasil/jennifer.cr/master/docs/model_scopes.md" Model Scopes
+            a.list-group-item data-parent="#menu5sub2" href="#/imdrasil/jennifer.cr/master/docs/aggregation.md" Aggregation
+            a.list-group-item data-parent="#menu5sub2" href="#/imdrasil/jennifer.cr/master/docs/transaction_and_lock.md" Transaction and Lock
 
       a.list-group-item.collapsed aria-expanded="false" data-parent="#sidebar" data-toggle="collapse" href="#menu4" Views ↴
         #menu4.collapse
@@ -121,5 +121,5 @@
       br
       strong Shards
 
-      a.list-group-item data-href="https://raw.githubusercontent.com/crystal-lang/" href="#shards/master/README.md" Intro
-      a.list-group-item data-href="https://raw.githubusercontent.com/veelenga/" href="#awesome-crystal/master/README.md" Awesome Crystal
+      a.list-group-item href="#/crystal-lang/shards/master/README.md" Intro
+      a.list-group-item href="#/veelenga/awesome-crystal/master/README.md" Awesome Crystal

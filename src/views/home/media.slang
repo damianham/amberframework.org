@@ -39,7 +39,7 @@ main
         h2 Logo variations
         hr
         p.lead
-          | Tailor Brands provides you with light & dark versions of your logo. Use the dark logo version
+          | Amber has light & dark logos. Use the dark logo version
           | on lighter backgrounds & light version on multi-colored and dark backgrounds whenever the original
           | color of the logo doesn’t fit with the rest of the palette.
       .row.gap-5
@@ -78,7 +78,7 @@ main
         small COLOR SYSTEM
         h2 Primary & Complementary
         p
-          | We developed a palette of colors that consists of one primary color plus two shades.
+          | Amber has a palette of colors that consists of one primary color plus two shades.
           br
           | Consistent use of these colors will contribute to a cohesive and harmonious look.
       .row.gap-y

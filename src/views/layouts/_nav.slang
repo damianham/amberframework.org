@@ -8,11 +8,14 @@ nav.topbar.topbar-inverse.topbar-expand-md.topbar-sticky.amber-color
     .topbar-right
       ul.topbar-nav.nav.text-light
         li.nav-item
-          a.nav-link href="/guides" Guides
+          - active = context.request.path == "/guides" ? "active" : ""
+          a class="nav-link #{active}" href="/guides" Guides
         li.nav-item
-          a.nav-link href="/blog" Blog
+          - active = context.request.path.starts_with?("/blog") ? "active" : ""
+          a class="nav-link #{active}" href="/blog" Blog
         li.nav-item
-          a.nav-link href="/media"
+          - active = context.request.path == "/media" ? "active" : ""
+          a class="nav-link #{active}" href="/media"
             | Media
         li.nav-item
           a.nav-link href="https://github.com/amberframework/" target="_blank"
