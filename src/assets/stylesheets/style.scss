@@ -82,12 +82,12 @@
     min-height: 200px;
     background-image: url(/assets/img/amber-white.png);
     background-size: 136px 200px;
-    background-color: #E67E25;
+    background-color: $main-orange;
     height: 500px;
 }
 
 .primary-color {
-    background-color: #E67E25;
+    background-color: $main-orange;
 }
 
 .lighter-shade {
@@ -238,7 +238,7 @@ blockquote p {
 
 #sidebar .list-group-item:hover,
 #sidebar .active {
-    border-left: solid 3px #E67E25;
+    border-left: solid 3px $main-orange;
     color: #111;
     background-color: #fff;
 }
