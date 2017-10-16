@@ -6,8 +6,7 @@ Amber::Server.configure do |app|
       app.port = opt.to_i
     end
   end
-  app.env = ENV.fetch("AMBER_ENV", "development")
-  app.color = false if app.env == "production"
+  app.color = Amber.env.development?.not_nil!
   app.log = ::Logger.new(STDOUT)
   app.log.level = ::Logger::INFO
 end

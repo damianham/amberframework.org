@@ -15,6 +15,20 @@
 
       a.list-group-item href="#getting-started/README.md" Getting Started
       a.list-group-item href="#getting-started/Installation/README.md" Installation
+
+      a.list-group-item aria-expanded="false" data-parent="#sidebar" data-toggle="collapse" href="#menu7" CLI ↴
+        #menu7.collapse
+          a.list-group-item data-parent="#menu7" href="#getting-started/cli/README.md" Intro
+          a.list-group-item data-parent="#menu7" href="#getting-started/cli/new.md" New
+          a.list-group-item data-parent="#menu7" href="#getting-started/cli/generate.md" Generate
+          a.list-group-item data-parent="#menu7" href="#getting-started/cli/migrate.md" Migrate
+          a.list-group-item data-parent="#menu7" href="#getting-started/cli/database.md" Database
+          a.list-group-item data-parent="#menu7" href="#getting-started/cli/console.md" Console
+          a.list-group-item data-parent="#menu7" href="#getting-started/cli/deploy.md" Deploy
+          a.list-group-item data-parent="#menu7" href="#getting-started/cli/encrypt.md" Encrypt
+          a.list-group-item data-parent="#menu7" href="#getting-started/cli/routes.md" Routes
+          a.list-group-item data-parent="#menu7" href="#getting-started/cli/run.md" Run
+          a.list-group-item data-parent="#menu7" href="#getting-started/cli/watch.md" Watch
       a.list-group-item href="#getting-started/Installation/create-new-app.md" Create New App
       a.list-group-item href="#getting-started/Installation/directory-structure.md" Directory Structure
       a.list-group-item href="#getting-started/Installation/configuration.md" Configuration
@@ -97,20 +111,6 @@
           a.list-group-item data-parent="#menu6" href="#getting-started/testing/integration.md" Integration Tests
           a.list-group-item data-parent="#menu6" href="#getting-started/testing/unit.md" Model Testing
 
-      a.list-group-item aria-expanded="false" data-parent="#sidebar" data-toggle="collapse" href="#menu7" CLI ↴
-        #menu7.collapse
-          a.list-group-item data-parent="#menu7" href="#getting-started/cli/README.md" Intro
-          a.list-group-item data-parent="#menu7" href="#getting-started/cli/new.md" New
-          a.list-group-item data-parent="#menu7" href="#getting-started/cli/generate.md" Generate
-          a.list-group-item data-parent="#menu7" href="#getting-started/cli/migrate.md" Migrate
-          a.list-group-item data-parent="#menu7" href="#getting-started/cli/database.md" Database
-          a.list-group-item data-parent="#menu7" href="#getting-started/cli/console.md" Console
-          a.list-group-item data-parent="#menu7" href="#getting-started/cli/deploy.md" Deploy
-          a.list-group-item data-parent="#menu7" href="#getting-started/cli/encrypt.md" Encrypt
-          a.list-group-item data-parent="#menu7" href="#getting-started/cli/routes.md" Routes
-          a.list-group-item data-parent="#menu7" href="#getting-started/cli/run.md" Run
-          a.list-group-item data-parent="#menu7" href="#getting-started/cli/watch.md" Watch
-      br
       strong RECIPES
 
       a.list-group-item href="#recipes/examples/amber-auth-example.md" Amber Auth Example

@@ -2,7 +2,11 @@ version: 1.0
 shards:
   amber:
     github: amberframework/amber
-    commit: 9d6ee10709dc5a72d231b76e43fb7299995e49eb
+    commit: 9fe5c7f74f169b6d32a92c7ccc6fb9d70f1d6535
+
+  amber_spec:
+    github: amberframework/amber-spec
+    version: 0.1.1
 
   callback:
     github: mosop/callback
@@ -16,10 +20,6 @@ shards:
     github: crystal-lang/crystal-db
     version: 0.4.2
 
-  expect:
-    github: dukex/expect.cr
-    commit: 17c31a0f42815cd914a630852bb2ee0da6a39dc0
-
   icr:
     github: TechMagister/crystal-icr
     commit: b28bb938cc9e9e439424217c074a9168d253ba4b
@@ -31,10 +31,6 @@ shards:
   micrate:
     github: juanedi/micrate
     version: 0.3.0
-
-  mocks:
-    github: waterlink/mocks.cr
-    version: 0.9.5
 
   mysql:
     github: crystal-lang/crystal-mysql
@@ -63,10 +59,6 @@ shards:
   shell-table:
     github: jwaldrip/shell-table.cr
     version: 0.9.2
-
-  singleton:
-    github: waterlink/singleton.cr
-    version: 1.0.0
 
   slang:
     github: jeromegn/slang
