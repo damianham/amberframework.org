@@ -11,11 +11,6 @@ main
     .container
       ul.post-list
         li
-          | Oct 16, 2017
-        li
-          h2
-            a href="/blog/amber-0-3-0-has-been-released-including-enhancements-and-bug-fixes" Amber 0.3.0 has been released including enhancements and bug fixes
-        li
           | Oct 11, 2017
         li
           h2
