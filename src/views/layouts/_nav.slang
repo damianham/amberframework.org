@@ -8,8 +8,8 @@ nav.topbar.topbar-inverse.topbar-expand-md.topbar-sticky.amber-color
     .topbar-right
       ul.topbar-nav.nav.text-light
         li.nav-item
-          - active = context.request.path == "/guides" ? "active" : ""
-          a class="nav-link #{active}" href="/guides" Guides
+          - active = context.request.path.starts_with?("/guides") ? "active" : ""
+          a class="nav-link #{active}" href="/guides/" Guides
         li.nav-item
           - active = context.request.path.starts_with?("/blog") ? "active" : ""
           a class="nav-link #{active}" href="/blog" Blog

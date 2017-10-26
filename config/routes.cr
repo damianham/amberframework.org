@@ -23,8 +23,9 @@ Amber::Server.configure do |app|
   routes :web do
     get "/", HomeController, :index
     get "/media", HomeController, :media
-    get "/guides", HomeController, :guides
+    get "/guides", GuideController, :index
+    get "/guides/*", GuideController, :show
     get "/blog", BlogController, :index
-    get "/blog/:post", BlogController, :post
+    get "/blog/:id", BlogController, :show
   end
 end

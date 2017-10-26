@@ -1,5 +1,5 @@
 class Amber::Controller::Error < Amber::Controller::Base
-  include Helper::Application
+  include ApplicationHelper
 
   def not_found
     render("404.slang")

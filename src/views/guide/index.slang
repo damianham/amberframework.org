@@ -5,7 +5,7 @@ section.section.bg-lightest.guides-spacing
     #main-content.col.main-content-full
       a.btn.hamburger-hide.affix.p-10 data-sidebar-toggle="" data-target="#sidebar-wrapper" href="#" aria-label="Show"
         i.fa.fa-navicon.fs-25.p-4.text-muted aria-hidden="true" title="Show sidebar"
-      #guide-content
+      #guide-content data-href="#{@source}"
 footer.site-footer.py-30.bg-gray.text-right
   .container
     .row
@@ -15,9 +15,11 @@ footer.site-footer.py-30.bg-gray.text-right
         p.text-light
           | If you found any issue on Amber documentation please contact us at
           a href="https://gitter.im/amberframework/amber"
-            | Gitter room.
+            | Gitter room
+          | or try
+          a href="https://docs.amberframework.org/"
+            | Gitbook
         p.text-light
-          | Copyright © 2017
           a href="https://amberframework.org"
             | Amber Framework
-          | . All rights reserved.
+          | , 2017.

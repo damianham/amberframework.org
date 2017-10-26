@@ -20,6 +20,10 @@ small {
     color: #6c7077 !important;
 }
 
+.topbar {
+    position: fixed;
+}
+
 .topbar-nav .nav-link {
     opacity: .9;
 }
@@ -35,7 +39,7 @@ small {
 }
 
 #sidebar {
-    padding-bottom: 50% !important;
+    padding-bottom: 70vh !important;
 }
 
 .img-amber-logo {

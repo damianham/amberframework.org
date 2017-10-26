@@ -1,3 +1,3 @@
 require "spec"
 require "amber"
-require "../config/*"
+# require "../config/*"

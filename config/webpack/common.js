@@ -5,6 +5,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 let config = {
   entry: {
     'main.bundle.js': './src/assets/javascripts/main.js',
+    'sidebar.bundle.js': './src/assets/javascripts/sidebar.js',
     'main.bundle.css': './src/assets/stylesheets/main.scss'
   },
   output: {

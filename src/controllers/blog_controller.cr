@@ -3,8 +3,8 @@ class BlogController < ApplicationController
     render("index.slang")
   end
 
-  def post
-    name = "blog/#{params["post"]}.md"
+  def show
+    name = "blog/#{params["id"]}.md"
     if File.exists? name
       render("show.slang")
     else

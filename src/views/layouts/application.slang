@@ -20,4 +20,6 @@ html lang="en"
 
     script src="/assets/js/core.min.js"
     script src="/dist/main.bundle.js"
+    - if context.request.path.starts_with? "/guides"
+      script src="/dist/sidebar.bundle.js"
     == render_template "layouts/google_analytics.slang"

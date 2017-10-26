@@ -9,7 +9,6 @@ body {
 body {
     font-family: "Open Sans", sans-serif;
     color: #535353;
-    font-weight: 300;
     font-size: 0.9375rem;
     line-height: 1.9;
     -webkit-transition: .5s;
@@ -41,13 +40,13 @@ textarea {
 }
 
 a {
-    color: #0facf3;
+    color: #0076da;
 }
 
 a:hover,
 a:focus {
-    color: #0facf3;
-    text-decoration: none;
+    color: #0076da;
+    text-decoration: underline;
     outline: none;
 }
 
@@ -2404,166 +2403,6 @@ button:focus {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #b5b9bf;
-}
-
-.price-unit {
-    display: inline-block;
-    font-size: 16px;
-    vertical-align: text-top;
-    margin-right: -10px;
-    margin-top: 16px;
-}
-
-.plan-period {
-    display: inline-block;
-    font-size: 12px;
-    vertical-align: text-bottom;
-    margin-left: -10px;
-    margin-bottom: 14px;
-    color: #b5b9bf;
-}
-
-.pricing-1 {
-    background-color: #fff;
-    border: 1px solid #f1f2f3;
-    border-radius: 5px;
-    -webkit-transition: .5s;
-    transition: .5s;
-}
-
-.pricing-1:hover {
-    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
-}
-
-.pricing-1 .plan-name {
-    padding: 16px;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 600;
-    border-bottom: 1px solid #f1f2f3;
-    background-color: #fcfdfe;
-}
-
-.pricing-1 .price {
-    font-size: 60px;
-    font-weight: 600;
-}
-
-.pricing-1 .btn {
-    border-color: transparent;
-}
-
-.pricing-2 {
-    text-align: center;
-}
-
-.pricing-2 .price {
-    font-size: 70px;
-    font-weight: 100;
-    opacity: .9;
-}
-
-.pricing-2 .plan-name {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 13px;
-    opacity: .9;
-}
-
-.pricing-2 .plan-description {
-    opacity: .7;
-}
-
-.pricing-2 .btn {
-    opacity: .9;
-}
-
-.pricing-3 {
-    text-align: center;
-    padding: 30px;
-    border-radius: 10px;
-}
-
-.pricing-3.popular {
-    background-color: #f8f8f8;
-    position: relative;
-}
-
-.pricing-3 .popular-tag {
-    position: absolute;
-    top: 0;
-    left: 40px;
-    background-color: #46da60;
-    color: #fff;
-    padding: 1px 12px;
-    padding-right: 24px;
-    text-transform: uppercase;
-    font-size: 11px;
-    letter-spacing: 1.5px;
-    font-weight: 400;
-    border-top-right-radius: 5rem;
-    border-bottom-right-radius: 5rem;
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-    -webkit-transform-origin: top left;
-    transform-origin: top left;
-}
-
-.pricing-3 .price {
-    font-size: 60px;
-    font-weight: 800;
-    margin-bottom: 16px;
-}
-
-.pricing-3 .plan-name {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 13px;
-    opacity: .9;
-}
-
-.pricing-3 ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.pricing-4 {
-    -webkit-box-align: center;
-    align-items: center;
-    color: #535353;
-    border: 1px solid #f1f2f3;
-}
-
-.pricing-4:hover,
-.pricing-4:focus {
-    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
-    color: #535353;
-}
-
-.pricing-4 .plan-description {
-    background-color: #f8f8f8;
-    padding: 30px;
-}
-
-.pricing-4 .plan-description h5 {
-    font-weight: 600;
-}
-
-.pricing-4 .plan-price {
-    text-align: center;
-}
-
-.pricing-4 .plan-price h3 {
-    font-weight: 300;
-    font-size: 35px;
-    padding-top: 1rem;
-}
-
-.pricing-4 .plan-price h3 small {
-    font-weight: 300;
-    font-size: 13px;
 }
 
 .scroll-down-1 span {

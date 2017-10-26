@@ -118,7 +118,7 @@ main.main-content
           p 15+ Releases
             i.fa.fa-github
             small
-              a href="https://github.com/amberframework/amber/releases/latest" target="_blank" Version 0.2.7
+              a href="https://github.com/amberframework/amber/releases/latest" target="_blank" Version 0.3.0
         div
           span.text-info.fs-50 data-provide="counter" data-from="0" data-to="250" data-speed="300" 250
           br

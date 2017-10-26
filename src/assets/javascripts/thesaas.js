@@ -15,7 +15,7 @@
   thesaas.defaults = {
     googleApiKey: null,
     googleAnalyticsId: null,
-    smoothScroll: true,
+    smoothScroll: false,
   }
 
   // Breakpoint values
@@ -82,81 +82,19 @@
 
 
     thesaas.topbar();
-    thesaas.parallax();
-    thesaas.carousel();
-    thesaas.scrolling();
+    // thesaas.parallax();
+    // thesaas.carousel();
+    // thesaas.scrolling();
     thesaas.counter();
-    thesaas.aos();
-    thesaas.typed();
-    thesaas.contact();
-    thesaas.mailer();
+    // thesaas.aos();
+    // thesaas.typed();
+    // thesaas.contact();
+    // thesaas.mailer();
     thesaas.constellation();
-    thesaas.shuffle();
+    // thesaas.shuffle();
 
 
     $(document).on('click', '[data-provide~="lightbox"]', lity);
-
-
-    // Video-wrapper
-    $(document).on('click', '.video-wrapper .btn', function () {
-      var wrapper = $(this).closest('.video-wrapper');
-      wrapper.addClass('reveal');
-
-      if (wrapper.find('video').length)
-        wrapper.find('video').get(0).play();
-
-      if (wrapper.find('iframe').length) {
-        var iframe = wrapper.find('iframe');
-        var src = iframe.attr('src');
-
-        if (src.indexOf('?') > 0)
-          iframe.get(0).src += "&autoplay=1";
-        else
-          iframe.get(0).src += "?autoplay=1";
-      }
-    });
-
-
-
-    // Upload
-    //
-    $(document).on('click', '.file-browser', function () {
-      var browser = $(this);
-      var file = browser.closest('.file-group').find('[type="file"]');
-      if (browser.hasClass('form-control')) {
-        setTimeout(function () {
-          file.trigger('click');
-        }, 300);
-      }
-      else {
-        //console.log( $browser.closest('.file-group').find('[type="file"]').length );
-        file.trigger('click');
-      }
-    });
-
-    // Event to change file name after file selection
-    $(document).on('change', '.file-group [type="file"]', function () {
-      var input = $(this);
-      var filename = input.val().split('\\').pop();
-      input.closest('.file-group').find('.file-value').val(filename).text(filename).focus();
-    });
-
-
-
-    // FadeOUt header
-    $(window).on('scroll', function () {
-      var st = $(this).scrollTop() - 200;
-      $('.header.fadeout').css('opacity', (1 - st / window.innerHeight));
-    });
-
-
-
-    // Drawer
-    // 
-    $(document).on('click', '.drawer-toggler, .drawer-close, .drawer-backdrop', function () {
-      $('body').toggleClass('drawer-open');
-    });
-
 
   };
 

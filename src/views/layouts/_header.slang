@@ -10,6 +10,6 @@ header.header.header-inverse.h-fullscreen.p-0.bg-primary.overflow-hidden.orange-
         p.lead.text-white.fs-20
           |  Amber is a web application framework written in Crystal inspired by Kemal, Rails, Phoenix and other popular application frameworks.
         br
-        a.btn.btn-lg.btn-round.shadow-3.btn-primary href="/guides"
+        a.btn.btn-lg.btn-round.shadow-3.btn-primary href="/guides/"
           | Getting Started
         br

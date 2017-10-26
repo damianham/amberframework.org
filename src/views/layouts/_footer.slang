@@ -16,7 +16,7 @@ footer.site-footer.py-30.bg-gray
         h6.heading-alt.text-uppercase.fs-14.mb-3
           | Amber Framework
         .nav.flex-column
-          a.nav-link href="/guides"
+          a.nav-link href="/guides/"
             | Amber Guides
           a.nav-link href="/blog"
             | Amber Blog

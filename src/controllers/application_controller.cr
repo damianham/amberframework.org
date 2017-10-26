@@ -1,3 +1,3 @@
 class ApplicationController < Amber::Controller::Base
-  include Helper::Application
+  include ApplicationHelper
 end
