@@ -13,8 +13,7 @@ main.main-content
           | Amber makes building web applications simple, fast and enjoyable without sacrificing performance.
       .row
         .col-12.offset-md-2.col-md-8.mb-30
-          .amber-yt-video
-            iframe src="https://www.youtube.com/embed/nIHSuBhoYc0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""
+          .youtube-player data-id="nIHSuBhoYc0"
       .row.gap-y
         .col-12.col-md-6.col-xl-4
           .flexbox.gap-items-4

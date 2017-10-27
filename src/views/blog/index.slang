@@ -5,7 +5,9 @@ header.header.header-inverse.overflow-hidden.orange-header
       .col-12.col-lg-8.offset-lg-2
         h1 Blog
         p.fs-20.opacity-70
-          | Experiences and stories about Amber Framework
+          | Experiences and stories about
+          br
+          strong Amber Framework
 main
   section.section.py-15
     .container

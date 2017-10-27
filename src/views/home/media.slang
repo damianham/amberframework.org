@@ -7,7 +7,7 @@ header.header.header-inverse.overflow-hidden.orange-header
         p.fs-20.opacity-70
           | We’ve put together some assets and guidelines to make use of
           br
-          strong Amber Brand and Logos.
+          strong Amber Brand and Logos
 main
   section.section.overflow-hidden
     .container
