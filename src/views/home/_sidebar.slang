@@ -15,6 +15,7 @@
 
       a.list-group-item href="/guides/getting-started/README.md#getting-started" id="getting-started" Getting Started
       a.list-group-item href="/guides/getting-started/Installation/README.md#installation" id="installation" Installation
+      a.list-group-item href="/guides/getting-started/Installation/minimal-configuration.md#minimal-configuration" id="minimal-configuration" Minimal Configuration
 
       a.list-group-item aria-expanded="true" data-parent="#sidebar" data-toggle="collapse" href="#menu7" CLI ↴
         #menu7.collapse.show
