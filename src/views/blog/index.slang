@@ -10,20 +10,14 @@ header.header.header-inverse.overflow-hidden.orange-header
           strong Amber Framework
 main
   section.section.py-15
-    .container
-      ul.post-list
-        li
-          | Oct 16, 2017
-        li
-          h2
-            a href="/blog/amber-0-3-0-has-been-released-including-enhancements-and-bug-fixes" Amber 0.3.0 has been released including enhancements and bug fixes
-        li
-          | Oct 11, 2017
-        li
-          h2
-            a href="/blog/amber-0-2-7-has-been-released-including-enhancements-and-bug-fixes" Amber 0.2.7 has been released including enhancements and bug fixes
-        li
-          | Oct 7, 2017
-        li
-          h2
-            a href="/blog/new-website-for-amber-framework" New website for Amber Framework
+    .container.post-list
+      ul
+        - @posts.each do |post|
+          li
+            p = post["date"]
+              | by
+              a href="#{post["profile"]}"
+                = post["author"]
+            h2
+              a href="/#{post["file"].to_s.sub(/.md$/, "")}"
+                = post["title"]

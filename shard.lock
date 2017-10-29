@@ -2,7 +2,7 @@ version: 1.0
 shards:
   amber:
     github: amberframework/amber
-    commit: 9fe5c7f74f169b6d32a92c7ccc6fb9d70f1d6535
+    version: 0.3.0
 
   amber_spec:
     github: amberframework/amber-spec
@@ -42,7 +42,7 @@ shards:
 
   pg:
     github: will/crystal-pg
-    version: 0.13.3
+    version: 0.13.4
 
   radix:
     github: luislavena/radix

@@ -26,6 +26,6 @@ Amber::Server.configure do |app|
     get "/guides", GuideController, :index
     get "/guides/*", GuideController, :show
     get "/blog", BlogController, :index
-    get "/blog/:id", BlogController, :show
+    get "/blog/:year/:month/:day/:id", BlogController, :show
   end
 end
