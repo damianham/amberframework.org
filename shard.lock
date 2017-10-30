@@ -2,7 +2,7 @@ version: 1.0
 shards:
   amber:
     github: amberframework/amber
-    commit: 509577ba58ad13c5e727f6777ca47d85d9c2749e
+    version: 0.3.0
 
   amber_spec:
     github: amberframework/amber-spec

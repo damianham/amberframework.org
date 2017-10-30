@@ -1,7 +1,3 @@
-Oct 11, 2017 by [Faustino Aguilar](https://github.com/faustinoaq).
-
-# Amber 0.2.7 has been released including enhancements and bug fixes
-
 [This release](https://github.com/amberframework/amber/releases/tag/v0.2.7) includes a lot of fixes and new features:
 
 - Fix for video issues [#279](https://github.com/amberframework/amber/pull/279) & [#281](https://github.com/amberframework/amber/pull/281) by [@crisward](https://github.com/crisward)

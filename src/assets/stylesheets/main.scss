@@ -89,14 +89,22 @@ small {
     padding-bottom: 0;
 }
 
-.post-list {
+.post-list, .post_content {
     padding: 0 10%;
 }
 
-.post-list > li {
+.post-list > ul {
+    padding: 0;
+}
+
+.post-list > ul > li {
     list-style: none;
 }
 
-.post-list > li > h2 {
-    padding-bottom: 20px;
+.post-list > ul > li > h2 {
+    margin-bottom: 2rem;
+}
+
+.post-list > ul > li > p {
+    margin: 0;
 }

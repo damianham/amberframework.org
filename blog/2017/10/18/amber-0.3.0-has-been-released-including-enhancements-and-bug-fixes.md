@@ -1,7 +1,3 @@
-Oct 18, 2017 by [Massimiliano Bertinetti](https://github.com/codelessfuture).
-
-# Amber 0.3.0 has been released including enhancements and bug fixes
-
 [This release](https://github.com/amberframework/amber/releases/tag/v0.3.0) includes a lot of fixes and new features:
 
 - Added `==` to Env and DRY'd it up a bit [#305](https://github.com/amberframework/amber/pull/305) by [@elorest](https://github.com/elorest)
