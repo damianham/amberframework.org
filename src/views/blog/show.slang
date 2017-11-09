@@ -7,12 +7,9 @@ header.header.header-inverse.overflow-hidden.orange-header
         p.fs-20.opacity-70
           = post["date"]
           | by
-          = post["author"]
+          a.author-link href="#{post["profile"]}"
+            = post["author"]
 main
   section.section
     .container.post_content
-      p = post["date"]
-        | by
-        a href="#{post["profile"]}"
-          = post["author"]
       == Markdown.to_html(File.read(filepath))
