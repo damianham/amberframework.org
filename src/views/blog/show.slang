@@ -1,16 +1,28 @@
 - @title = "#{post["title"]} - Blog - Amber Framework"
-header.header.header-inverse.overflow-hidden.orange-header
+header.header.header-inverse.h-fullscreen.pb-80 style="background-image: url(/assets/img/blog/#{post["image"]});"  data-overlay="8"
   .container.text-center
-    .row
-      .col-12.col-lg-8.offset-lg-2
-        h1 = post["title"]
-        p.fs-20.opacity-70
+    .row.h-full
+      .col-12.col-lg-8.offset-lg-2.align-self-center
+        p.opacity-70
           = post["date"]
-          | by
-          strong
-            a.author-link href="#{post["profile"]}"
-              = post["author"]
-main
-  section.section
-    .container.post_content
-      == Markdown.to_html(File.read(filepath))
+        br
+        h1.display-4.hidden-sm-down
+          = post["title"]
+        h1.hidden-md-up
+          = post["title"]
+        br
+        p
+          span.opacity-70.mr-8 By
+          a.text-white href="#{post["profile"]}"
+            = post["author"]
+        p
+          img.rounded-circle.w-40 src="#{post["profile"]}.png" alt="Author avatar" title="#{post["author"]}"
+      .col-12.align-self-end.text-center
+        a.scroll-down-1.scroll-down-inverse href="#section-content"
+          span
+main.main-content
+  .section#section-content
+    .container
+      .row
+        .col-12.col-lg-8.offset-lg-2
+          == Markdown.to_html(File.read(filepath))

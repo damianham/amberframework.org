@@ -1,7 +1,11 @@
 - @title = "Guides & Documentation - Amber Framework"
+css:
+  .topbar {
+    background: #e57310 !important;
+  }
 section.section.bg-lightest.guides-spacing
   .row.flex-nowrap.wrapper
-    == render_template "home/_sidebar.slang"
+    == render_template "layouts/_sidebar.slang"
     #main-content.col.main-content-full
       a.btn.hamburger-hide.affix.p-10 data-sidebar-toggle="" data-target="#sidebar-wrapper" href="#" aria-label="Show"
         i.fa.fa-navicon.fs-25.p-4.text-muted aria-hidden="true" title="Show sidebar"

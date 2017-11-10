@@ -19,5 +19,5 @@ main
               a href="#{post["profile"]}"
                 = post["author"]
             h2
-              a href="/#{post["file"].to_s.sub(/.md$/, "")}"
+              a.text-light-dark href="/#{post["file"].to_s.sub(/.md$/, "")}"
                 = post["title"]

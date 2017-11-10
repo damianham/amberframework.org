@@ -1,4 +1,4 @@
-nav.topbar.topbar-inverse.topbar-expand-md.topbar-sticky.amber-color
+nav.topbar.topbar-inverse.topbar-expand-md.topbar-sticky
   div class="#{ @container_class }"
     .topbar-left
       button.topbar-toggler aria-label="Navbar menu icon"
