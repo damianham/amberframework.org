@@ -17,7 +17,7 @@ footer.site-footer.py-30.bg-gray.text-right
         h6.heading-alt.text-uppercase.fs-14.mb-16
           img src="/assets/img/amber-white-bg.png" width="100" alt="amber logo"
         p.text-light
-          | If you found any issue on Amber documentation please contact us at
+          | Some problem?, please contact us at
           a href="https://gitter.im/amberframework/amber"
             | Gitter room
           | or try
@@ -27,3 +27,4 @@ footer.site-footer.py-30.bg-gray.text-right
           a href="https://amberframework.org"
             | Amber Framework
           | , 2017.
+        a.github-button href="https://github.com/amberframework/amber" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star amberframework/amber on GitHub" Star
