@@ -1,4 +1,3 @@
-- minify? = @development ? "" : ".min"
 doctype html
 html lang="en"
   head
