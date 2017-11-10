@@ -125,6 +125,7 @@ main.main-content
           br
           p 300+ Stars
             i.fa.fa-star
+          a.github-button href="https://github.com/amberframerwork/amber" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star amberframerwork/amber on GitHub" Star
         div
           span.text-info.fs-50 data-provide="counter" data-from="0" data-to="650" data-speed="1000" 650
           br
