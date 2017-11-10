@@ -26,3 +26,5 @@ main.main-content
       .row
         .col-12.col-lg-8.offset-lg-2
           == Markdown.to_html(File.read(filepath))
+          h2 Leave a comment
+          == render_template "layouts/_disqus.slang"
