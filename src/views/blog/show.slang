@@ -1,5 +1,5 @@
 - @title = "#{post["title"]} - Blog - Amber Framework"
-header.header.header-inverse.h-fullscreen.pb-80 style="background-image: url(/assets/img/blog/#{post["image"]});"  data-overlay="8"
+header.header.header-inverse.h-fullscreen.pb-80 style="background-image: url(#{post["image"]});"  data-overlay="8"
   .container.text-center
     .row.h-full
       .col-12.col-lg-8.offset-lg-2.align-self-center
