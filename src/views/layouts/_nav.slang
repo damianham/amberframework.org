@@ -18,7 +18,7 @@ nav.topbar.topbar-inverse.topbar-expand-md.topbar-sticky.amber-color
           a class="nav-link #{active}" href="/media"
             | Media
         li.nav-item
-          a.nav-link href="https://github.com/amberframework/" target="_blank"
+          a.nav-link href="https://github.com/amberframework/amber" target="_blank"
             | Github
         li.nav-item
           a.nav-link href="https://gitter.im/amberframework/amber" target="_blank"
