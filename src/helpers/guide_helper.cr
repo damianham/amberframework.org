@@ -23,6 +23,7 @@ module GuideHelper
     "guides/getting-started/Installation/create-new-app.md"              => "#{DEFAULT}/getting-started/Installation/create-new-app.md",
     "guides/getting-started/Installation/directory-structure.md"         => "#{DEFAULT}/getting-started/Installation/directory-structure.md",
     "guides/getting-started/Installation/configuration.md"               => "#{DEFAULT}/getting-started/Installation/configuration.md",
+    "guides/getting-started/Installation/minimal-configuration.md"       => "#{DEFAULT}/getting-started/Installation/minimal-configuration.md",
     "guides/getting-started/routing/pipelines.md"                        => "#{DEFAULT}/getting-started/routing/pipelines.md",
     "guides/getting-started/routing/routes.md"                           => "#{DEFAULT}/getting-started/routing/routes.md",
     "guides/getting-started/routing/forwarding.md"                       => "#{DEFAULT}/getting-started/routing/forwarding.md",
