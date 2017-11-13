@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+  <loc>https://amberframework.org/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/blog</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/media</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/preface/contributing.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/preface/code-of-conduct.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/README.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/Installation/README.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/cli/README.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/cli/new.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/cli/generate.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/cli/migrate.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/cli/database.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/cli/console.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/cli/deploy.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/cli/encrypt.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/cli/routes.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/cli/run.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/cli/watch.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/Installation/create-new-app.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/Installation/directory-structure.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/Installation/configuration.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/routing/pipelines.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/routing/routes.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/routing/forwarding.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/controllers/README.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/controllers/request-and-response-objects.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/controllers/params-validation.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/controllers/filters.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/controllers/cookies.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/controllers/flash.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/controllers/redirecting.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/controllers/halting.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/README.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/granite/README.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/granite/migrations.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/granite/validations.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/granite/callbacks.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/granite/associations.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/granite/querying.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/crecto/README.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/crecto/migrations.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/jennifer/README.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/jennifer/configuration.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/jennifer/migration.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/jennifer/model_mapping.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/jennifer/model_sti.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/jennifer/callbacks.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/jennifer/validation.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/jennifer/timestamps.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/jennifer/relations.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/jennifer/crud.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/jennifer/query_dsl.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/jennifer/eager_loading.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/jennifer/pagination_and_ordering.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/jennifer/model_scopes.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/jennifer/aggregation.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/models/jennifer/transaction_and_lock.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/views/README.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/views/layouts.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/views/templates.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/views/partials.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/views/jasper-helpers.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/mailers/README.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/websockets/README.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/websockets/channels.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/websockets/sockets.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/websockets/client-js.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/testing/system.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/testing/controller.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/testing/integration.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/getting-started/testing/unit.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/recipes/examples/amber-auth-example.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/recipes/debugging/vs-code-debug.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/recipes/examples/heroku-deployments.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/recipes/examples/digital-ocean-deployments.md</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/shards</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/guides/awesome-crystal</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/blog/2017/10/18/amber-0.3.0-has-been-released-including-enhancements-and-bug-fixes</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/blog/2017/10/11/amber-0.2.7-has-been-released-including-enhancements-and-bug-fixes</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amberframework.org/blog/2017/10/07/new-website-for-amber-framework</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+</urlset>
