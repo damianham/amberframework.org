@@ -6,7 +6,7 @@ shards:
 
   amber_spec:
     github: amberframework/amber-spec
-    version: 0.1.1
+    version: 0.1.2
 
   callback:
     github: mosop/callback
@@ -18,7 +18,7 @@ shards:
 
   db:
     github: crystal-lang/crystal-db
-    version: 0.4.2
+    version: 0.4.3
 
   icr:
     github: TechMagister/crystal-icr
@@ -34,7 +34,7 @@ shards:
 
   mysql:
     github: crystal-lang/crystal-mysql
-    version: 0.3.2
+    version: 0.3.3
 
   optarg:
     github: mosop/optarg
@@ -51,6 +51,10 @@ shards:
   redis:
     github: stefanwille/crystal-redis
     version: 1.8.0
+
+  selenium:
+    github: ysbaddaden/selenium-webdriver-crystal
+    commit: fff14e79de0cb8e7a4177868918a2601963f28b0
 
   sentry:
     github: TechMagister/sentry
@@ -70,7 +74,7 @@ shards:
 
   sqlite3:
     github: crystal-lang/crystal-sqlite3
-    version: 0.8.2
+    version: 0.8.3
 
   string_inflection:
     github: mosop/string_inflection

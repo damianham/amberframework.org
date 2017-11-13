@@ -13,19 +13,6 @@ dependencies:
     github: amberframework/amber
     version: 0.3.0
 
-#  granite_orm:
-#    github: kemalyst/granite-orm
-#    version: ~> 0.7.2
-#
-#  pg:
-#    github: will/crystal-pg
-#
-#  mysql:
-#    github: crystal-lang/crystal-mysql
-#
-#  sqlite3:
-#    github: crystal-lang/crystal-sqlite3
-
 development_dependencies:
   amber_spec:
     github: amberframework/amber-spec

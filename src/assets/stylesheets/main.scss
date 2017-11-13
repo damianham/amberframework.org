@@ -69,6 +69,9 @@ small {
     .img-amber-logo {
         display: none !important;
     }
+    .h-full > div > p {
+        display: none !important;
+    }
 }
 
 .orange-header {
@@ -80,8 +83,12 @@ small {
     padding: 5px
 }
 
-.amber-color {
-    background-color: $main-orange !important;
+.topbar {
+  background: transparent !important;
+}
+
+body.body-scrolled > .topbar {
+  background: $main-orange !important;
 }
 
 .guides-spacing {
@@ -89,7 +96,7 @@ small {
     padding-bottom: 0;
 }
 
-.post-list, .post_content {
+.post-list {
     padding: 0 10%;
 }
 
@@ -107,4 +114,11 @@ small {
 
 .post-list > ul > li > p {
     margin: 0;
+}
+
+.text-light-dark,
+.text-light-dark:hover,
+.text-light-dark:focus,
+.text-light-dark:active {
+    color: #535353
 }
