@@ -1,4 +1,3 @@
-- minify? = @development ? "" : ".min"
 doctype html
 html lang="en"
   head
@@ -20,6 +19,7 @@ html lang="en"
 
     script src="/assets/js/core.min.js"
     script src="/dist/main.bundle.js"
+    script async="" defer="" src="https://buttons.github.io/buttons.js"
     - if context.request.path.starts_with? "/guides"
       script src="/dist/sidebar.bundle.js"
     == render_template "layouts/google_analytics.slang"

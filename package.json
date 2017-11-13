@@ -4,7 +4,7 @@
   "description": "Amber Framework",
   "private": true,
   "author": "Amber",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "build": "webpack --config config/webpack/development.js",
     "watch": "webpack -w --config config/webpack/development.js",
