@@ -123,7 +123,7 @@ main.main-content
         div
           span.text-info.fs-50 data-provide="counter" data-from="0" data-to="300" data-speed="1000" 300
           br
-          p 300+ Stars
+          p 400+ Stars
             i.fa.fa-star
         div
           span.text-info.fs-50 data-provide="counter" data-from="0" data-to="650" data-speed="1000" 650
