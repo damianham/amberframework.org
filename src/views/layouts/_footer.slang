@@ -19,36 +19,36 @@ footer.site-footer.py-30.bg-gray
           | Amber Framework
         .nav.flex-column
           a.nav-link href="https://twitter.com/amberframework" target="_blank"
-            | Twitter
             i.fa.fa-twitter
+            | Twitter
           a.nav-link href="https://docs.amberframework.org/"
-            | Gitbook
             i.fa.fa-book
+            | Gitbook
           a.nav-link href="https://github.com/amberframework/" target="_blank"
-            | Source Code
             i.fa.fa-github
+            | Source Code
           a.nav-link href="https://gitter.im/amberframework/amber"  target="_blank"
-            | Gitter Channel
             i.fa.fa-comments
+            | Gitter Channel
           a.nav-link href="https://teespring.com/stores/amber-framework"  target="_blank"
-            | Goodies
             i.fa.fa-shopping-basket
+            | Goodies
       .col-12.col-md-6.col-lg-2
         h6.heading-alt.text-uppercase.fs-14.mb-3
           | Crystal Language
         .nav.flex-column
           a.nav-link href="https://crystal-lang.org/docs/"
-            | Crystal Documentation
             i.fa.fa-book
+            | Crystal Documentation
           a.nav-link href="https://crystal-lang.org/api/latest/"
-            | Crystal Standard Library
             i.fa.fa-tasks
+            | Crystal Standard Library
           a.nav-link href="https://crystal-lang.org/community/"
-            | Crystal Community
             i.fa.fa-users
+            | Crystal Community
           a.nav-link href="https://github.com/crystal-lang/crystal"
-            | Source Code
             i.fa.fa-github
+            | Source Code
           a.nav-link href="https://play.crystal-lang.org/#/cr"
-            | Try Crystal Online
             i.fa.fa-play
+            | Try Crystal Online
