@@ -3,7 +3,7 @@ header.header.header-inverse.h-fullscreen.pb-80 style="background-image: url(#{p
   .container.text-center
     .row.h-full
       .col-12.col-lg-8.offset-lg-2.align-self-center
-        p.opacity-70
+        p.opacity-70.post-date
           = post["date"]
         br
         h1.display-4.hidden-sm-down
@@ -11,11 +11,11 @@ header.header.header-inverse.h-fullscreen.pb-80 style="background-image: url(#{p
         h1.hidden-md-up
           = post["title"]
         br
-        p
+        p.post-author
           span.opacity-70.mr-8 By
           a.text-white href="#{post["profile"]}"
             = post["author"]
-        p
+        p.post-author-avatar
           img.rounded-circle.w-40 src="#{post["profile"]}.png" alt="Author avatar" title="#{post["author"]}"
       .col-12.align-self-end.text-center
         a.scroll-down-1.scroll-down-inverse href="#section-content"

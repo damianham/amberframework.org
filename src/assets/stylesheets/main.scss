@@ -69,7 +69,9 @@ small {
     .img-amber-logo {
         display: none !important;
     }
-    .h-full > div > p {
+    .post-date,
+    .post-author,
+    .post-author-avatar {
         display: none !important;
     }
 }
