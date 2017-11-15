@@ -18,7 +18,7 @@
       a.list-group-item href="/guides/getting-started/Installation/minimal-configuration.md#minimal-configuration" id="minimal-configuration" Minimal Configuration
 
       a.list-group-item aria-expanded="false" data-parent="#sidebar" data-toggle="collapse" href="#menu7" CLI ↴
-        #menu7.collapse.show
+        #menu7.collapse
           a.list-group-item data-parent="#menu7" href="/guides/getting-started/cli/README.md#cli-readme" id="cli-readme" Intro
           a.list-group-item data-parent="#menu7" href="/guides/getting-started/cli/new.md#cli-new" id="cli-new" New
           a.list-group-item data-parent="#menu7" href="/guides/getting-started/cli/generate.md#cli-generate" id="cli-generate" Generate
@@ -35,13 +35,13 @@
       a.list-group-item href="/guides/getting-started/Installation/configuration.md#configuration" id="configuration" Configuration
 
       a.list-group-item aria-expanded="false" data-parent="#sidebar" data-toggle="collapse" href="#menu1" Routing ↴
-        #menu1.collapse.show
+        #menu1.collapse
           a.list-group-item data-parent="#menu1" href="/guides/getting-started/routing/pipelines.md#pipelines" id="pipelines" Pipelines
           a.list-group-item data-parent="#menu1" href="/guides/getting-started/routing/routes.md#routes" id="routes" Routes
           a.list-group-item data-parent="#menu1" href="/guides/getting-started/routing/forwarding.md#forwarding" id="forwarding" Forwarding
 
       a.list-group-item.collapsed aria-expanded="false" data-parent="#sidebar" data-toggle="collapse" href="#menu2" Controllers ↴
-        #menu2.collapse.show
+        #menu2.collapse
           a.list-group-item data-parent="#menu2" href="/guides/getting-started/controllers/README.md#controllers-readme" id="controllers-readme" Intro
           a.list-group-item data-parent="#menu2" href="/guides/getting-started/controllers/request-and-response-objects.md#controllers-request-and-response-objects" id="controllers-request-and-response-objects" Request & Response
           a.list-group-item data-parent="#menu2" href="/guides/getting-started/controllers/params-validation.md#controllers-params-validation" id="controllers-params-validation" Params Validations
@@ -52,11 +52,12 @@
           a.list-group-item data-parent="#menu2" href="/guides/getting-started/controllers/halting.md#controllers-halting" id="controllers-halting" Request Halting
 
       a.list-group-item.collapsed aria-expanded="false" data-parent="#sidebar" data-toggle="collapse" href="#menu3" Models ↴
-        #menu3.collapse.show
+
+        #menu3.collapse
           a.list-group-item data-parent="#menu3" href="/guides/getting-started/models/README.md#models-readme" id="models-readme" Intro
 
           a.list-group-item aria-expanded="false" data-toggle="collapse" href="#menu3sub2" Granite ↴
-          #menu3sub2.collapse.show
+          #menu3sub2.collapse
             a.list-group-item data-parent="#menu3sub2" href="/guides/getting-started/models/granite/README.md#granite-readme" id="granite-readme" Intro
             a.list-group-item data-parent="#menu3sub2" href="/guides/getting-started/models/granite/migrations.md#granite-migrations" id="granite-migrations" Migrations
             a.list-group-item data-parent="#menu3sub2" href="/guides/getting-started/models/granite/validations.md#granite-validations" id="granite-validations" Validations
@@ -65,12 +66,12 @@
             a.list-group-item data-parent="#menu3sub2" href="/guides/getting-started/models/granite/querying.md#granite-querying" id="granite-querying" Querying
 
           a.list-group-item aria-expanded="false" data-toggle="collapse" href="#menu4sub2" Crecto ↴
-          #menu4sub2.collapse.show
+          #menu4sub2.collapse
             a.list-group-item data-parent="#menu4sub2" href="/guides/getting-started/models/crecto/README.md#crecto-readme" id="crecto-readme" Models
             a.list-group-item data-parent="#menu4sub2" href="/guides/getting-started/models/crecto/migrations.md#crecto-migrations" id="crecto-migrations" Migrations
 
           a.list-group-item aria-expanded="false" data-toggle="collapse" href="#menu5sub2" Jennifer ↴
-          #menu5sub2.collapse.show
+          #menu5sub2.collapse
             a.list-group-item data-parent="#menu5sub2" href="/guides/getting-started/models/jennifer/README.md#jennifer-readme" id="jennifer-readme" Amber Configuration
             a.list-group-item data-parent="#menu5sub2" href="/guides/getting-started/models/jennifer/configuration.md#jennifer-configuration" id="jennifer-configuration" Jennifer Configuration
             a.list-group-item data-parent="#menu5sub2" href="/guides/getting-started/models/jennifer/migration.md#jennifer-migration" id="jennifer-migration" Migrations
@@ -89,7 +90,7 @@
             a.list-group-item data-parent="#menu5sub2" href="/guides/getting-started/models/jennifer/transaction_and_lock.md#jennifer-transaction-and-lock" id="jennifer-transaction-and-lock" Transaction and Lock
 
       a.list-group-item.collapsed aria-expanded="false" data-parent="#sidebar" data-toggle="collapse" href="#menu4" Views ↴
-        #menu4.collapse.show
+        #menu4.collapse
           a.list-group-item data-parent="#menu2" href="/guides/getting-started/views/README.md#views-readme" id="views-readme" Intro
           a.list-group-item data-parent="#menu2" href="/guides/getting-started/views/layouts.md#views-layouts" id="views-layouts" Layouts
           a.list-group-item data-parent="#menu2" href="/guides/getting-started/views/templates.md#views-templates" id="views-templates"  Templates
@@ -99,14 +100,14 @@
       a.list-group-item href="/guides/getting-started/mailers/README.md#mailers" id="mailers" Mailers
 
       a.list-group-item aria-expanded="false" data-parent="#sidebar" data-toggle="collapse" href="#menu5" Websockets ↴
-        #menu5.collapse.show
+        #menu5.collapse
           a.list-group-item data-parent="#menu5" href="/guides/getting-started/websockets/README.md#websockets-readme" id="websockets-readme" Intro
           a.list-group-item data-parent="#menu5" href="/guides/getting-started/websockets/channels.md#websockets-channels" id="websockets-channels" Channels
           a.list-group-item data-parent="#menu5" href="/guides/getting-started/websockets/sockets.md#websockets-sockets" id="websockets-sockets" Sockets
           a.list-group-item data-parent="#menu5" href="/guides/getting-started/websockets/client-js.md#websockets-client-js" id="websockets-client-js" Client JS
 
       a.list-group-item aria-expanded="false" data-parent="#sidebar" data-toggle="collapse" href="#menu6" Testing ↴
-        #menu6.collapse.show
+        #menu6.collapse
           a.list-group-item data-parent="#menu6" href="/guides/getting-started/testing/system.md#testing-system" id="testing-system" System Tests
           a.list-group-item data-parent="#menu6" href="/guides/getting-started/testing/controller.md#testing-controller" id="testing-controller" Controller Tests
           a.list-group-item data-parent="#menu6" href="/guides/getting-started/testing/integration.md#testing-integration" id="testing-integration" Integration Tests
