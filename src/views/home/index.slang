@@ -121,7 +121,7 @@ main.main-content
             small
               a href="https://github.com/amberframework/amber/releases/latest" target="_blank" Version 0.3.0
         div
-          span.text-info.fs-50 data-provide="counter" data-from="0" data-to="300" data-speed="1000" 300
+          span.text-info.fs-50 data-provide="counter" data-from="0" data-to="460" data-speed="1000" 460
           br
           p 400+ Stars
             i.fa.fa-star
