@@ -114,20 +114,20 @@ main.main-content
           | Contributing to Amber can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine. Amber is a community effort and we want You to be part of ours.
       .flexbox.flex-grow-all.text-center.mx-auto.amber-stats
         div
-          span.text-info.fs-50 data-provide="counter" data-from="0" data-to="18" data-speed="1000" 18
+          span.text-info.fs-50 data-provide="counter" data-from="0" data-to="18" data-speed="1000" 19
           br
-          p 15+ Releases
+          p 19 Releases
             i.fa.fa-github
             small
-              a href="https://github.com/amberframework/amber/releases/latest" target="_blank" Version 0.3.5
+              a href="https://github.com/amberframework/amber/releases/latest" target="_blank" Version 0.3.6
         div
-          span.text-info.fs-50 data-provide="counter" data-from="0" data-to="465" data-speed="1000" 465
+          span.text-info.fs-50 data-provide="counter" data-from="0" data-to="465" data-speed="1000" 500
           br
-          p 400+ Stars
+          p 500+ Stars
             i.fa.fa-star
         div
-          span.text-info.fs-50 data-provide="counter" data-from="0" data-to="688" data-speed="1000" 688
+          span.text-info.fs-50 data-provide="counter" data-from="0" data-to="688" data-speed="1000" 690
           br
-          p 650+ Commits
+          p 690+ Commits
             i.fa.fa-file-text
       br
