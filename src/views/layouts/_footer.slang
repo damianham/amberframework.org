@@ -13,7 +13,11 @@ footer.site-footer.py-30.bg-gray
             | Amber Framework
           | . All rights reserved.
         br
-        a.github-button href="https://github.com/amberframework/amber" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star amberframework/amber on GitHub" Star
+
+        .row
+          .col-6.col-md-6.col-lg-4
+            a.github-button href="https://github.com/amberframework/amber" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star amberframework/amber on GitHub" Star
+
       .col-12.col-md-6.col-lg-2
         h6.heading-alt.text-uppercase.fs-14.mb-3
           | Amber Framework

@@ -10,7 +10,7 @@ to provide the credentials to access the table.
 Then:
 
 ```
-shards update
+shards install
 amber migrate up
 ```
 
