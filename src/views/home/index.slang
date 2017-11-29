@@ -135,8 +135,8 @@ main.main-content
   section.section.text-center
     .container
       header
-        h3 Amber Project Sponsors
+        h3 Sponsors
         hr
       .partner
           a#digitalocean href="https://digitalocean.com"
-            img src="/assets/img/powederd-by-digitalocean.png" alt="Hosting generously provided by Digital Ocean"
+            img src="/assets/img/powederd-by-digitalocean.png" width="40%" alt="Hosting generously provided by Digital Ocean"
