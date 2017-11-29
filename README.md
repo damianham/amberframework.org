@@ -23,7 +23,7 @@ crystal build src/amberframework.cr
 ./amberframework
 ```
 
-## Font-end capabilities
+## Front-end capabilities
 
 Amber framework includes a minimal configuration to generate `main.bundle.js` and `main.bundle.css` using SCSS ans JavaScript.
 
