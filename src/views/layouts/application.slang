@@ -10,7 +10,6 @@ html lang="en"
     link rel="apple-touch-icon" href="/favicon.png"
     link rel="icon" href="/favicon.png"
     link rel="icon" type="image/x-icon" href="/favicon.ico"
-    script async defer src="https://buttons.github.io/buttons.js"
 
   body
     == render_template "layouts/_nav.slang"

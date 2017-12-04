@@ -20,11 +20,7 @@ footer.site-footer.py-30.bg-gray.text-right
           | Some problem?, please contact us at
           a href="https://gitter.im/amberframework/amber"
             | Gitter room
-          | or try
-          a href="https://docs.amberframework.org/"
-            | Gitbook
         p.text-light
           a href="https://amberframework.org"
             | Amber Framework
           | , 2017.
-        a.github-button href="https://github.com/amberframework/amber" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star amberframework/amber on GitHub" Star
