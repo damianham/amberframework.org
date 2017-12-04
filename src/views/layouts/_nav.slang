@@ -24,5 +24,5 @@ nav.topbar.topbar-inverse.topbar-expand-md.topbar-sticky
           a.nav-link href="https://gitter.im/amberframework/amber" target="_blank"
             | Gitter
         li.nav-item
-          a.nav-link href="https://teespring.com/stores/amber-framework" target="_blank"
-            | Goodies
+          a.github-button data-show-count="true" href="https://github.com/amberframework/amber" aria-label="Star amberframework/amber on GitHub"
+            | Star
