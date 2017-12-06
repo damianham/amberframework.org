@@ -9,7 +9,7 @@ import hljs from "./highlight.min.js";
 import "./crystal.min.js";
 
 const md = new Remarkable();
-const notFound = "<h1>Documentation not found</h1><p>We can't load this page, please try reloading or report an issue to <a href='https://github.com/amberframework/online-docs/issues'>documentation repository</a>.</p><p>Thanks you for learn Amber Framework!</p>";
+const notFound = "<h1>Documentation not found</h1><img src='/assets/img/404.gif' /><p>We can't load this page, please try reloading or report an issue to <a href='https://github.com/amberframework/online-docs/issues'>documentation repository</a>.</p>";
 
 const host = "https://raw.githubusercontent.com";
 const path = "/amberframework/online-docs/master";
