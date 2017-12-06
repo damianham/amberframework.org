@@ -32,8 +32,9 @@ $(document).ready(() => {
 
     $("a[data-sidebar-toggle]").on("click", (elem) => {
         elem.preventDefault();
+        var target = elem.currentTarget.dataset.target
         $("a[data-sidebar-toggle]").toggleClass("hamburger-hide");
-        $(elem.dataset.target).toggleClass("sidebar-hidden");
+        $(target).toggleClass("sidebar-hidden");
         $("#main-content").toggleClass("main-content-full");
     });
 
