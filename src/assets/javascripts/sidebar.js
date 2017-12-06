@@ -17,6 +17,8 @@ const path = "/amberframework/online-docs/master";
 $(document).ready(() => {
     var hash = window.location.hash;
 
+    $("footer").addClass('sticky-footer');
+
     if (hash) {
         goToUrl(document.getElementById(hash.replace("#", '')));
     } else {

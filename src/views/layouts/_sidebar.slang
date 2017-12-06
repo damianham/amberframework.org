@@ -4,23 +4,14 @@
   #sidebar.pt-10
     .list-group.border-0.text-md-left
       br
-      strong DOCUMENTATION
+      strong QUICKSTART
+      a.list-group-item href="/getting-started/Installation/zero-to-deploy.md#zero-to-deploy" id="zero-to-deploy" Zero to Deploy
 
-      a.list-group-item href="/getting-started/README.md#getting-started" id="getting-started" Getting Started
+      br
+      strong GUIDES
+
+      a.list-group-item href="/getting-started/README.md#getting-started" id="getting-started" Overview
       a.list-group-item href="/getting-started/Installation/README.md#installation" id="installation" Installation
-
-      a.list-group-item aria-expanded="false" data-parent="#sidebar" data-toggle="collapse" href="#menu7" CLI ↴
-        #menu7.collapse
-          a.list-group-item data-parent="#menu7" href="/getting-started/cli/README.md#cli-readme" id="cli-readme" Intro
-          a.list-group-item data-parent="#menu7" href="/getting-started/cli/new.md#cli-new" id="cli-new" New
-          a.list-group-item data-parent="#menu7" href="/getting-started/cli/generate.md#cli-generate" id="cli-generate" Generate
-          a.list-group-item data-parent="#menu7" href="/getting-started/cli/database.md#cli-database" id="cli-database" Database
-          a.list-group-item data-parent="#menu7" href="/getting-started/cli/console.md#cli-console" id="cli-console" Console
-          a.list-group-item data-parent="#menu7" href="/getting-started/cli/deploy.md#cli-deploy" id="cli-deploy" Deploy
-          a.list-group-item data-parent="#menu7" href="/getting-started/cli/encrypt.md#cli-encrypt" id="cli-encrypt" Encrypt
-          a.list-group-item data-parent="#menu7" href="/getting-started/cli/routes.md#cli-routes" id="cli-routes" Routes
-          a.list-group-item data-parent="#menu7" href="/getting-started/cli/watch.md#cli-watch" id="cli-watch" Watch
-      a.list-group-item href="/getting-started/Installation/create-new-app.md#create-new-app" id="create-new-app" Create New App
       a.list-group-item href="/getting-started/Installation/directory-structure.md#directory-structure" id="directory-structure" Directory Structure
       a.list-group-item href="/getting-started/Installation/configuration.md#configuration" id="configuration" Configuration
 
@@ -54,12 +45,6 @@
             a.list-group-item data-parent="#menu3sub2" href="/getting-started/models/granite/associations.md#granite-associations" id="granite-associations" Associations
             a.list-group-item data-parent="#menu3sub2" href="/getting-started/models/granite/querying.md#granite-querying" id="granite-querying" Querying
 
-          a.list-group-item aria-expanded="false" data-toggle="collapse" href="#menu4sub2" Crecto ↴
-          #menu4sub2.collapse
-            a.list-group-item data-parent="#menu4sub2" href="/getting-started/models/crecto/README.md#crecto-readme" id="crecto-readme" Models
-            a.list-group-item data-parent="#menu4sub2" href="/getting-started/models/crecto/migrations.md#crecto-migrations" id="crecto-migrations" Migrations
-
-
 
       a.list-group-item.collapsed aria-expanded="false" data-parent="#sidebar" data-toggle="collapse" href="#menu4" Views ↴
         #menu4.collapse
@@ -78,16 +63,35 @@
           a.list-group-item data-parent="#menu5" href="/getting-started/websockets/sockets.md#websockets-sockets" id="websockets-sockets" Sockets
           a.list-group-item data-parent="#menu5" href="/getting-started/websockets/client-js.md#websockets-client-js" id="websockets-client-js" Client JS
 
-      a.list-group-item aria-expanded="false" data-parent="#sidebar" data-toggle="collapse" href="#menu6" Testing ↴
-        #menu6.collapse
-          a.list-group-item data-parent="#menu6" href="/getting-started/testing/system.md#testing-system" id="testing-system" System Tests
-          a.list-group-item data-parent="#menu6" href="/getting-started/testing/controller.md#testing-controller" id="testing-controller" Controller Tests
-          a.list-group-item data-parent="#menu6" href="/getting-started/testing/integration.md#testing-integration" id="testing-integration" Integration Tests
-          a.list-group-item data-parent="#menu6" href="/getting-started/testing/unit.md#testing-unit" id="testing-unit" Model Testing
+      br
+      strong TESTING
+      a.list-group-item data-parent="#menu6" href="/getting-started/testing/system.md#testing-system" id="testing-system" System Tests
+      a.list-group-item data-parent="#menu6" href="/getting-started/testing/controller.md#testing-controller" id="testing-controller" Controller Tests
+      a.list-group-item data-parent="#menu6" href="/getting-started/testing/integration.md#testing-integration" id="testing-integration" Integration Tests
+      a.list-group-item data-parent="#menu6" href="/getting-started/testing/unit.md#testing-unit" id="testing-unit" Model Testing
 
+      br
+      strong DEPLOYMENT
+      a.list-group-item href="/recipes/examples/heroku-deployments.md#heroku-deployments" id="heroku-deployments" Deploying To Heroku
+      a.list-group-item href="/recipes/examples/digital-ocean-deployments.md#digital-ocean-deployments" id="digital-ocean-deployments" Deploying To Digital Ocean
+
+
+      br
+      strong COMMAND LINE TOOL
+
+      a.list-group-item data-parent="#menu7" href="/getting-started/cli/README.md#cli-readme" id="cli-readme" Amber CLI
+      a.list-group-item data-parent="#menu7" href="/getting-started/cli/new.md#cli-new" id="cli-new" New
+      a.list-group-item data-parent="#menu7" href="/getting-started/cli/generate.md#cli-generate" id="cli-generate" Generate
+      a.list-group-item data-parent="#menu7" href="/getting-started/cli/database.md#cli-database" id="cli-database" Database
+      a.list-group-item data-parent="#menu7" href="/getting-started/cli/console.md#cli-console" id="cli-console" Console
+      a.list-group-item data-parent="#menu7" href="/getting-started/cli/deploy.md#cli-deploy" id="cli-deploy" Deploy
+      a.list-group-item data-parent="#menu7" href="/getting-started/cli/encrypt.md#cli-encrypt" id="cli-encrypt" Encrypt
+      a.list-group-item data-parent="#menu7" href="/getting-started/cli/routes.md#cli-routes" id="cli-routes" Routes
+      a.list-group-item data-parent="#menu7" href="/getting-started/cli/watch.md#cli-watch" id="cli-watch" Watch
+
+      br
       strong RECIPES
 
       a.list-group-item href="/recipes/examples/amber-auth-example.md#amber-auth-example" id="amber-auth-example" Amber Auth Example
       a.list-group-item href="/recipes/debugging/vs-code-debug.md#vs-code-debug" id="vs-code-debug" VS Code Debugging
-      a.list-group-item href="/recipes/examples/heroku-deployments.md#heroku-deployments" id="heroku-deployments" Deploying To Heroku
-      a.list-group-item href="/recipes/examples/digital-ocean-deployments.md#digital-ocean-deployments" id="digital-ocean-deployments" Deploying To Digital Ocean
+      a.list-group-item data-parent="#menu4sub2" href="/getting-started/models/crecto/README.md#crecto-readme" id="crecto-readme" Crecto ORM

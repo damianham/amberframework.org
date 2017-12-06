@@ -129,3 +129,14 @@ body.body-scrolled > .topbar {
 #digitalocean img {
   width: 100px;
 }
+
+#guide-content {
+ min-height: 80vh;
+}
+
+.sticky-footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+
+}
