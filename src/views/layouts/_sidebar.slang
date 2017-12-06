@@ -5,7 +5,7 @@
     .list-group.border-0.text-md-left
       br
       strong QUICKSTART
-      a.list-group-item href="/getting-started/Installation/zero-to-deploy.md#zero-to-deploy" id="zero-to-deploy" Zero to Deploy
+      a.list-group-item href="/getting-started/Installation/quick-start.md#zero-to-deploy" id="zero-to-deploy" Zero to Deploy
 
       br
       strong GUIDES
