@@ -3,16 +3,15 @@ main.main-content
   section.section
     .container
       header.section-header.mb-0
-        small
-          strong
-            | Bare metal performance
         h2
-          | Productivity. Performance. Happiness.
-        hr
+          | Bare metal performance
         p.lead
-          | Amber makes building web applications fast, simple, and enjoyable
+          | Amber provides the bare metal performance of the Crystal Language.
           br
-          | - with fewer bugs and blazing fast performance.
+          | It provides productivity and happiness through a powerful CLI and familiar design patterns seen in Kemal, Rails, Phoenix and other popular frameworks.
+        hr
+        p 
+          | See how quickly you can get an amber app up and running:
       .row
         .col-12.offset-md-2.col-md-8.mb-30
           .youtube-player data-id="nIHSuBhoYc0"
@@ -114,19 +113,19 @@ main.main-content
           | Contributing to Amber can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine. Amber is a community effort and we want You to be part of ours.
       .flexbox.flex-grow-all.text-center.mx-auto.amber-stats
         div
-          span.text-info.fs-50 data-provide="counter" data-from="0" data-to="18" data-speed="1000" 19
+          span.text-info.fs-50 19
           br
           p 19 Releases
             i.fa.fa-github
             small
               a href="https://github.com/amberframework/amber/releases/latest" target="_blank" Version 0.3.6
         div
-          span.text-info.fs-50 data-provide="counter" data-from="0" data-to="465" data-speed="1000" 500
+          span.text-info.fs-50 523
           br
           p 500+ Stars
             i.fa.fa-star
         div
-          span.text-info.fs-50 data-provide="counter" data-from="0" data-to="688" data-speed="1000" 690
+          span.text-info.fs-50 690
           br
           p 690+ Commits
             i.fa.fa-file-text

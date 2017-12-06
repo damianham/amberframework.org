@@ -7,9 +7,13 @@ header.header.header-inverse.h-fullscreen.p-0.bg-primary.overflow-hidden.orange-
         h1.d-none
           | Amber Framework
         br
+        h2
+          | Productivity. Performance. Happiness.
         p.lead.text-white.fs-20
-          |  Amber is a web application framework written in Crystal inspired by Kemal, Rails, Phoenix and other popular application frameworks.
+          | Amber makes building web applications fast, simple, and enjoyable.
+          br
+          | Get started with blazing fast performance.
         br
         a.btn.btn-lg.btn-round.shadow-3.btn-primary href="/guides/"
-          | Guides
+          | Getting Started Guide
         br
