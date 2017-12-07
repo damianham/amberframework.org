@@ -30,6 +30,7 @@
           a.list-group-item data-parent="#menu2" href="/getting-started/controllers/flash.md#controllers-flash" id="controllers-flash" Flash
           a.list-group-item data-parent="#menu2" href="/getting-started/controllers/redirecting.md#controllers-redirecting" id="controllers-redirecting" Redirection
           a.list-group-item data-parent="#menu2" href="/getting-started/controllers/halting.md#controllers-halting" id="controllers-halting" Request Halting
+          a.list-group-item data-parent="#menu2" href="/getting-started/controllers/respond_width.md#controllers-respond-with" id="controllers-respond-with" Respond With
 
       a.list-group-item.collapsed aria-expanded="false" data-parent="#sidebar" data-toggle="collapse" href="#menu3" Models ↴
 
