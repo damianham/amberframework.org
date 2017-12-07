@@ -83,7 +83,7 @@
       a.list-group-item data-parent="#menu7" href="/getting-started/cli/new.md#cli-new" id="cli-new" New
       a.list-group-item data-parent="#menu7" href="/getting-started/cli/generate.md#cli-generate" id="cli-generate" Generate
       a.list-group-item data-parent="#menu7" href="/getting-started/cli/database.md#cli-database" id="cli-database" Database
-      a.list-group-item data-parent="#menu7" href="/getting-started/cli/console.md#cli-console" id="cli-console" Console
+      a.list-group-item data-parent="#menu7" href="/getting-started/cli/exec.md#cli-exec" id="cli-exec" Exec
       a.list-group-item data-parent="#menu7" href="/getting-started/cli/deploy.md#cli-deploy" id="cli-deploy" Deploy
       a.list-group-item data-parent="#menu7" href="/getting-started/cli/encrypt.md#cli-encrypt" id="cli-encrypt" Encrypt
       a.list-group-item data-parent="#menu7" href="/getting-started/cli/routes.md#cli-routes" id="cli-routes" Routes
