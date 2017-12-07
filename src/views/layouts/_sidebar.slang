@@ -50,9 +50,6 @@
       a.list-group-item.collapsed aria-expanded="false" data-parent="#sidebar" data-toggle="collapse" href="#menu4" Views ↴
         #menu4.collapse
           a.list-group-item data-parent="#menu2" href="/getting-started/views/README.md#views-readme" id="views-readme" Intro
-          a.list-group-item data-parent="#menu2" href="/getting-started/views/layouts.md#views-layouts" id="views-layouts" Layouts
-          a.list-group-item data-parent="#menu2" href="/getting-started/views/templates.md#views-templates" id="views-templates"  Templates
-          a.list-group-item data-parent="#menu2" href="/getting-started/views/partials.md#views-partials" id="views-partials"  Partials
           a.list-group-item data-parent="#menu2" href="/getting-started/views/jasper-helpers.md#views-jasper-helpers" id="views-jasper-helpers" View Helpers
 
       a.list-group-item href="/getting-started/mailers/README.md#mailers" id="mailers" Mailers
