@@ -9,7 +9,7 @@ to provide the credentials to access the table.
 
 Then:
 
-```
+```sh
 shards install
 amber migrate up
 ```
