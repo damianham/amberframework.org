@@ -9,12 +9,6 @@ class GuideController < ApplicationController
 
   def show
     @container_class = "container-fluid"
-    name = context.request.path.lchop
-    @source = DOCUMENTATION[name]?
-    if @source
-      render("index.slang")
-    else
-      raise Amber::Exceptions::RouteNotFound.new(request)
-    end
+    render("index.slang")
   end
 end
