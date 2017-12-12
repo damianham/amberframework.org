@@ -18,7 +18,7 @@ amber migrate up
 
 To run the demo:
 
-```
+```sh
 crystal build src/amberframework.cr
 ./amberframework
 ```
@@ -29,14 +29,14 @@ Amber framework includes a minimal configuration to generate `main.bundle.js` an
 
 On development use:
 
-```
+```sh
 npm install
 npm run watch
 ```
 
 To generate minified bundles for production execute:
 
-```
+```sh
 npm install
 npm run release
 ```
@@ -46,13 +46,13 @@ npm run release
 This will start an instance of postgres, migrate the database, run the specs,
 and launch the site at http://localhost:3000
 
-```
+```sh
 docker-compose up -d
 ```
 
 To view the logs:
 
-```
+```sh
 docker-compose logs -f
 ```
 
