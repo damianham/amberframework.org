@@ -4,7 +4,7 @@ Official website for Amber web application framework.
 
 ## Installation
 
-Create a pg database called `demo` and configure the `config/database.yml`
+Create a PG database called `demo` and configure the `config/database.yml`
 to provide the credentials to access the table.
 
 Then:
