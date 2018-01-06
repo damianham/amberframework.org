@@ -1,12 +1,8 @@
-Amber::Server.configure do |app|
-  app.name = "Amber Framework web application."
-  app.host = "0.0.0.0"
-  OptionParser.parse! do |opts|
-    opts.on("-p PORT", "--port PORT", "define port to run server") do |opt|
-      app.port = opt.to_i
-    end
-  end
-  app.color = Amber.env.development?.not_nil!
-  app.log = ::Logger.new(STDOUT)
-  app.log.level = ::Logger::INFO
+Amber::Server.configure do |settings|
+  settings.name = "Amber Framework web application."
+  settings.host = "0.0.0.0"
+  settings.port = ENV["PORT"].to_i if ENV["PORT"]?
+  in_development = Amber.env.development? ? true : false
+  settings.logging.colorize = in_development
+  settings.logging.severity = in_development ? "debug" : "info"
 end
