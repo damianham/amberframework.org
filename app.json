@@ -27,10 +27,7 @@
   ],
   "buildpacks": [
     {
-      "url": "https://github.com/crystal-lang/heroku-buildpack-crystal.git"
+      "url": "https://github.com/amberframework/heroku-buildpack-amber.git"
     },
-    {
-      "url": "https://github.com/crystal-lang/heroku-buildpack-crystal.git"
-    }
   ]
 }
