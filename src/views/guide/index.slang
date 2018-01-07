@@ -9,7 +9,7 @@ section.section.bg-lightest.guides-spacing
     #main-content.col.main-content-full
       a.btn.hamburger-hide.affix.p-10 data-sidebar-toggle="" data-target="#sidebar-wrapper" href="#" aria-label="Show"
         i.fa.fa-navicon.fs-25.p-4.text-muted aria-hidden="true" title="Show sidebar"
-      #guide-content data-href="#{@source}"
+      #guide-content data-href=""
 footer.site-footer.py-30.bg-gray.text-right
   .container
     .row
