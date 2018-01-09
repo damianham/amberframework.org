@@ -1,7 +1,4 @@
 class GuideController < ApplicationController
-  include GuideHelper
-  @source : String? = DOCUMENTATION["guides/README.md"]
-
   def index
     @container_class = "container-fluid"
     render("index.slang")

@@ -1,1 +1,1 @@
-web: ./app -p $PORT
+web: ./bin/amberframework -p $PORT

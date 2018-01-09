@@ -7,7 +7,7 @@
 /log/
 .env
 .amber_secret_key
-production.yml
+.encryption_key
 .DS_Store
 node_modules
 amberframework

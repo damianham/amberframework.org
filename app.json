@@ -28,6 +28,6 @@
   "buildpacks": [
     {
       "url": "https://github.com/amberframework/heroku-buildpack-amber.git"
-    },
+    }
   ]
 }

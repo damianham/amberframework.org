@@ -4,14 +4,14 @@ version: 0.1.0
 authors:
   - Amber <amberframework.org>
 
-crystal: 0.23.1
+crystal: 0.24.1
 
 license: MIT
 
 dependencies:
   amber:
     github: amberframework/amber
-    version: 0.3.0
+    version: 0.6.1
 
 development_dependencies:
   amber_spec:
