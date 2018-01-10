@@ -25,7 +25,7 @@ crystal build src/amberframework.cr
 
 ## Front-end capabilities
 
-Amber framework includes a minimal configuration to generate `main.bundle.js` and `main.bundle.css` using SCSS ans JavaScript.
+Amber framework includes a minimal configuration to generate `main.bundle.js` and `main.bundle.css` using SCSS and JavaScript.
 
 On development use:
 
