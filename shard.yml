@@ -16,6 +16,3 @@ dependencies:
 development_dependencies:
   amber_spec:
     github: amberframework/amber-spec
-
-scripts:
-  postinstall: "git remote add production deploy@amber.elorest.com:/home/deploy/www/amberframework.org"
