@@ -1,4 +1,4 @@
-port: 8080
+port: 80
 name: amberframework.org
 logging:
   severity: info
@@ -12,5 +12,5 @@ logging:
     - 
 
 host: 0.0.0.0
-port_reuse: true
+port_reuse: false
 process_count: 1
