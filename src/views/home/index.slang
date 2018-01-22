@@ -11,7 +11,7 @@ main.main-content
           | It provides productivity and happiness through a powerful CLI and familiar design patterns seen in Kemal, Rails, Phoenix and other popular frameworks.
         hr
         p 
-          | See how quickly you can get an amber app up and running:
+          | See how quickly you can get an Amber app up and running:
       .row
         .col-12.offset-md-2.col-md-8.mb-30
           .youtube-player data-id="nIHSuBhoYc0"
@@ -34,8 +34,8 @@ main.main-content
               h5
                 | MIT License
               p
-                | Amber is licensed under the MIT license which makes it perfect
-                | for use in Commercial applications.
+                | Amber is licensed under the MIT license, which makes it perfect
+                | for use in commercial applications.
 
         .col-12.col-md-6.col-xl-4
           .flexbox.gap-items-4
@@ -56,9 +56,9 @@ main.main-content
               h5
                 | Build Secure Apps
               p
-                | Built-in tools for input validation, CSRF protection, Form
-                | tampering protection, SQL injection prevention, and XSS prevention,
-                | helping you keep your application safe and secure.
+                | Tools are built-in to prevent and mitigate common attacks against web applications.
+                | Minimize the risk of SQL injection, form tampering, cross-site request
+                | forgery, and several other attacks.
 
         .col-12.col-md-6.col-xl-4
           .flexbox.gap-items-4
@@ -66,11 +66,11 @@ main.main-content
               i.fa.fa-language.fs-25.pt-4.text-secondary
             div
               h5
-                | A beautiful Type Safe Language
+                | Powered by Crystal
               p
-                | Crystal inspired by Ruby is a statically type checked, so any type errors will be
-                | caught early by the compiler rather than fail on runtime.
-                | Crystal uses green threads, called fibers, to achieve concurrency.
+                | Crystal is a type safe, compiled language inspired by the simplicity of Ruby.
+                | Type safety means more errors are caught by the compiler during development,
+                | so you can be more confident about your code working in production.
 
         .col-12.col-md-6.col-xl-4
           .flexbox.gap-items-4
@@ -80,9 +80,8 @@ main.main-content
               h5
                 | The Right Amount of Tooling
               p
-                | The things you need are built-in. CLI, Translations, database access,
-                | caching, validation, authentication, including tools for deployments
-                | secrets encryption.
+                | All of the tools you need are built-in: CLI, translations, database access, caching,
+                | validation, authentication, deployments, and encryption of secrets.
 
   section.section.text-center.bg-gray
     .container
@@ -110,7 +109,8 @@ main.main-content
           | Community Driven
         hr
         p.lead
-          | Contributing to Amber can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine. Amber is a community effort and we want You to be part of ours.
+          | Contributing to Amber can be a rewarding way to learn, teach, and build experience with
+          | Crystal framework development. Amber is a community effort and we want you to join.
       .flexbox.flex-grow-all.text-center.mx-auto.amber-stats
         div
           span.text-info.fs-50 19
