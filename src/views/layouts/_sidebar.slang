@@ -87,9 +87,10 @@
       a.list-group-item data-parent="#menu7" href="/getting-started/cli/encrypt.md#cli-encrypt" id="cli-encrypt" Encrypt
       a.list-group-item data-parent="#menu7" href="/getting-started/cli/routes.md#cli-routes" id="cli-routes" Routes
       a.list-group-item data-parent="#menu7" href="/getting-started/cli/watch.md#cli-watch" id="cli-watch" Watch
+      a.list-group-item data-parent="#menu7" href="/getting-started/cli/recipes.md#cli-recipes" id="cli-recipes" Recipes
 
       br
-      strong RECIPES
+      strong COOKBOOK
 
       a.list-group-item href="/recipes/examples/amber-auth-example.md#amber-auth-example" id="amber-auth-example" Amber Auth Example
       a.list-group-item href="/recipes/debugging/vs-code-debug.md#vs-code-debug" id="vs-code-debug" VS Code Debugging
